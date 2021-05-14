@@ -1,0 +1,2679 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<script type="text/javascript">
+var sWaitingBoxLan = "zh_CN";
+</script>
+
+<meta http-equiv="pragma" content="no-cache">
+
+
+
+
+<base href="https://y8b2b.travelsky.com:443/y8b2b/"></base>
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="author" content="TravelSky"/>
+<script src="js/jquery.js"></script>
+<!-- whether need new group -->
+
+	<iframe id="iframeA" name="iframeA" src="" width="0" height="0" style="display:none;" ></iframe>
+
+<script type="text/javascript">
+function setIframeAhash(){
+/* 	var isDisplayNewGroup = '1';
+	if(isDisplayNewGroup!='0'){ */
+		try{
+			var hashH = $(".content_all").height()+20; //get self height
+		 	var URL = document.URL ;
+			//deal with special page
+			//ReservationIndex.do
+			if(URL.indexOf("ReservationIndex.do")!=-1 || hashH <300){
+				hashH += 300;
+			}
+			//AVFillin.do
+			if(URL.indexOf("AVFillin.do")!=-1 || URL.indexOf("DomesticPricing.do")!=-1){
+				hashH += 80;
+			}
+			if(URL.indexOf("ShoppingQuery.do")!=-1 || URL.indexOf("AVQuery.do")!=-1){
+				hashH += 50;
+			}
+			//ModpasswdF.do
+			if(URL.indexOf("ModpasswdF.do")!=-1){
+				hashH += 100;
+			}
+			//FrontxxxQuery.do
+			var urlReg = /^[A-Za-z.\/0-9_:]+Front[A-Za-z]+Query\.do$/ ;
+			if(urlReg.test(URL)){
+				hashH += 100;
+			}
+			/*è?????è????·????????????é??é??BUG?¤???????2014.3.11?????? -è?·*/
+			if( hashH < 800){
+				hashH = 800;
+			}
+			/*è?????è????·????????????é??é??BUG?¤???????2014.3.11??????-???*/
+			//è?????iframeA???src
+			var urlC = "https://y8b2b.travelsky.com:443/y8b2b/iframe.jsp?"+new Date().getTime();
+
+			document.getElementById("iframeA").src=urlC+"#"+hashH; //set height to iframeA's src
+			//set top focus
+			//window.scrollTo(0,0) ;
+		}catch (e) {
+			//TODO: handle exception
+		}
+/* 	} */
+}
+window.onload=setIframeAhash;
+</script>
+
+<html>
+<head>
+<title>订单详细信息--RN202006081353579813 </title>
+<base href="https://y8b2b.travelsky.com:443/y8b2b/"></base>
+<link href="css/css_all.css?v=20200511155343204" rel="stylesheet" type="text/css" />
+<link href="css/css_table.css?v=20200511155343204" rel="stylesheet" type="text/css" />
+<link href="css/payment/paybank.css?v=20200511155343204" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="css/style.css?v=20200511155343204"/>
+<style type="text/css">
+ .emdckboxfirstth{display:none}
+ .emdbox{display:none}
+ .errRefundEmdbox{display:none}
+ .waitingbox {font-family:'microsoft yahei';width:200px; height:56px; line-height:56px; position:absolute; z-index:99; left:50%; top:50%; margin:-30px 0 0 -100px; background-color:#D3E4F3; border:solid 2px #88abce; text-align:center; font-size:12px;opacity: 0.7; font-weight:bold; }
+</style>
+</head>
+
+<body>
+<div class="table_detail_cont">
+<div class="book_tit">订单详细信息</div>
+
+<div class="table_detail_cont_p2">
+<div class="conf_tit">订单信息</div>
+		     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableinfo1">
+               <tr>
+	                 <th align="left" class="tdbg1" width="159px">订单编号</th>
+	                 <th class="tdbg1" align="center" width="132px">团/散</th>
+    				 <th class="tdbg1" align="center" width="132px">国内/国际</th>
+	                 <th align="left" class="tdbg1" width="132px">订票日期</th>
+	                 <th align="left" class="tdbg1" width="132px">订票人ID</th>
+	                 <th align="left" class="tdbg1" width="133px">团队名称</th>
+	                 <th align="left" class="tdbg1" width="132px">旅客人数</th>
+	                 <th align="left" class="tdbg1" width="132px">订单状态</th>
+	                 <th class="tdbg1" align="center" width="132px">退票状态</th>
+    				 <th class="tdbg1" align="center" width="132px">差退状态</th>
+    				 <th class="tdbg1" align="center" width="132px">客票挂起</th>
+    				 <th class="tdbg1" align="center" width="132px">改期升舱</th>
+               </tr>
+ 			   <tr value="RN202006081353579813">
+					  <td>RN202006081353579813</td>
+					  <td>散客</td>
+					  <td>国内</td>
+					  <td>2020-06-08 13:53</td>
+					  <td>LVMAMA03_LVMAMA</td>
+					  <td></td>
+					  <td>1</td>
+					  <td>
+
+
+								出票完成
+
+					   </td>
+					    	<td class="fc1">
+
+					    	-
+
+					 		</td>
+					        <td  class="fc1">
+
+					    	-
+
+					    	</td>
+					    	<td  class="fc1">
+
+
+					    	-
+					    	</td>
+					    	<td  class="fc1">
+
+					    	-
+					    	</td>
+
+					    </tr>
+          </table>
+</div>
+<div class="tab_det_tab">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+    <tr>
+      <th width="15%" class="tab_det">选择要操作的PNR</th>
+
+
+					<td class="tdbor2 fc1" align="left"><input type="radio" class="radiogroup" name="radiobutton" value="PE76RC" onclick='choosepnr("202006081353576061","PE76RC","3","0","400.0","OP202006081353574927")'/>
+
+
+						<a href="#" class="pnrdetail" pnrno='PE76RC' onclick="javascript:return false;"/> &nbsp;&nbsp;&nbsp;<b>PE76RC</b></a>
+						<input type="hidden" name="hiddenPublicKey" id="publicKey_PE76RC" value="A2DDF09D1455FE4D163B6A5A783FB4D3"/>
+						<input type="hidden" name="hiddenPnrSysType" id="pnrSysType_PE76RC" value=""/>
+
+					[入库生成,出票完成]
+					<input type="hidden" class="order_pnr_detail" value="PE76RC"/>
+					<input type="hidden" class="order_pnr_id" value="OP202006081353574927"/>
+					</td>
+
+     </tr>
+  </table>
+</div>
+<div class="table_detail_cont_p2">
+<div class="conf_tit">PNR信息</div>
+<input type="hidden" id="isInterFltChange" value="false"/>
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableinfo1">
+		<tr>
+			<th align="left" class="tdbg1">PNR状态</th>
+			<th align="left" class="tdbg1">生成时间</th>
+			<th align="left" class="tdbg1">生成方式</th>
+
+			<th align="left" class="tdbg1 isInterChange">票面价</th>
+			<th align="left" class="tdbg1 isInterChange">税</th>
+			<th align="left" class="tdbg1 isInterChange">代理费率</th>
+			<th align="left" class="tdbg1 isInterChange">代理费</th>
+
+			<th align="left" class="tdbg1">支付金额</th>
+			<th align="left" class="tdbg1">币种</th>
+			<th align="left" class="tdbg1">出票时限</th>
+			<th align="left" class="tdbg1">支付完成时间</th>
+			<th align="left" class="tdbg1">出票时间</th>
+
+
+		</tr>
+
+
+		<tr class='PE76RCOP202006081353574927 defaulthide' style="display:none">
+			<td>出票完成</td>
+			<td>2020-06-08 13:53 </td>
+			<td>入库生成</td>
+
+			<td class="isInterChange">350</td>
+			<td class="isInterChange">50</td>
+			<td class="isInterChange">
+
+
+
+
+					   0.0%
+
+
+			</td>
+			<td class="isInterChange">0</td>
+
+			<td>400</td>
+			<td>CNY</td>
+			<td>2020-06-08 13:50 </td>
+			<td>2020-06-08 13:54:04 </td>
+			<td>2020-06-08 13:54 </td>
+		</tr>
+
+
+	</table>
+</div>
+
+<div class="table_detail_cont_p2">
+
+<table border="0" cellpadding="0" cellspacing="0" class="tableinfo1"  width="100%" >
+		<tr>
+			<th>旅客类型</th>
+			<th>代理费总计</th>
+			<th>基础代理费率</th>
+			<th>附加代理费率</th>
+		</tr>
+
+
+
+
+
+
+
+
+</table>
+</div>
+
+
+<!-- EMD显示区域 -->
+
+
+<div class="table_detail_cont_p2">
+<div class="conf_tit">航班信息</div>
+	<!-- 国内票航班信息显示 -->
+
+		     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableinfo1">
+               <tr>
+	                 <th align="left" class="tdbg1">起飞城市</th>
+	                 <th align="left" class="tdbg1">到达城市</th>
+	                 <th align="left" class="tdbg1">起飞时间</th>
+	                 <th align="left" class="tdbg1">到达时间</th>
+	                 <th align="left" class="tdbg1">航班号</th>
+	                 <th align="left" class="tdbg1">舱位</th>
+	                 <th align="left" class="tdbg1">
+	                 	票面价<br/>成人
+
+	                 	/ 儿童 / 婴儿
+	                 </th>
+	                 <th align="left" class="tdbg1">
+	                 	税<br/>成人
+
+	                 	/ 儿童 / 婴儿
+	                 </th>
+               </tr>
+
+
+
+               		<tr class='PE76RCOP202006081353574927 defaulthide' style="display:none">
+       						<td>TNA(济南遥墙机场TNA)</td>
+					    	<td>SZX(深圳宝安机场SZX)</td>
+					    	<td>2020-06-09 12:50</td>
+					    	<td>2020-06-09 15:35</td>
+					    	<td>Y87526</td>
+					    	<td>E</td>
+					    	<td>
+					    			<span name="adtprice">350/</span><span style="display:none">-/</span>
+
+					    			<span name="chdprice">0/</span><span style="display:none">-/</span>
+					    			<span name="infprice">0</span><span style="display:none">-</span>
+					    	</td>
+					    	<td>
+					    			<span name="adtprice">50/</span><span style="display:none">-/</span>
+
+					    			<span name="chdprice">0/</span><span style="display:none">-/</span>
+					    			<span name="infprice">0</span><span style="display:none">-</span>
+					    	</td>
+               		</tr>
+
+
+
+    	</table>
+
+    <!-- 国际票航班信息显示表格 -->
+
+</div>
+
+<div class="table_detail_cont_p2">
+	<div class="conf_tit">PNR旅客信息</div>
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableinfo1">
+	    <tr>
+
+	       <th align="left" class="tdbg1">旅客姓名</th>
+	<!--      <th align="left" class="tdbg1">证件类型</th>  -->
+
+	       <th align="left" class="tdbg1">证件号码</th>
+	       <th align="left" class="tdbg1">证件有效期</th>
+
+	       <th align="left" class="tdbg1">联系手机</th>
+	       <th align="left" class="tdbg1">出生日期</th>
+	       <th align="left" class="tdbg1">旅客类型</th>
+	       <th align="left" class="tdbg1">票号</th>
+
+	       <th align="left" class="tdbg1">操作</th>
+
+	    </tr>
+
+
+					<tr class='PE76RCOP202006081353574927 defaulthide' style="display:none">
+
+
+
+						<td><samp id="psgname0">邓忠华</samp></td>
+
+
+			    			<td><samp class="docid" id="docid0">37108319900506051X</samp>
+			    			</td>
+
+
+							<td><samp class="expireDate" id="expireDate0"></samp></td>
+
+
+						<!--军残警残证件号 -->
+
+			    		<td>18689463852 </td>
+			     		<td><samp id="birthday0"></samp></td>
+			    		<td>成人</td>
+				    	<td  class="fc1" align="left">
+
+				    			<a href="#" class="tktdetail defaulthide" tktno='871-2310603913' onclick="javascript:return false;"/>871-2310603913</a>
+				    			<input type="hidden" name="hiddenPublicKey" id="publicKey_871-2310603913" value="3A4DE15681AE775AAE6EFD7A9F807E62"/>
+				    			&nbsp;&nbsp;&nbsp;
+
+				    	</td>
+
+
+				    	<td>
+				    	<samp id="modifyApi0">&nbsp;&nbsp;&nbsp;<a href="#" class="modifyApi" value="0" onclick="javascript:return false;">修改旅客API信息</a>&nbsp;&nbsp;&nbsp;</samp>
+				    	</td>
+				    	<input type="hidden" id="psgerRPH0" value='1'>
+				    	<input type="hidden" id="psgerId0" value=''>
+
+				    	<input type="hidden" id="issueCountry0" value=''>
+				    	<input type="hidden" id="nationality0" value=''>
+				    	<input type="hidden" id="gender0" value=''>
+
+
+
+
+
+
+					</tr>
+
+
+
+
+    	</table>
+    	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tr id="pnrbtn">
+			<td>
+
+				 	 <!-- 国内直接入库 -->
+
+					 	<input class="but1 orderhide" style="display:none" id="SubmitZJRK" type="button" value="直接入库"/><!-- 直接入库 -->
+
+
+
+
+
+
+
+
+				 <input class="but1 orderhide" style="display:none" id="SubmitLKXXSR" type="button" value="旅客信息输入"/><!-- 旅客信息输入 -->
+
+
+			        	<input class="but2 orderhide" style="display:none" id="SubmitGQ" type="button" name="Submit3" value="改期/升舱"/>
+
+
+
+		     	     <input class="but1 orderhide" style="display:none" id="SubmitCP" type="button" name="Submit5" value="出票"/>
+
+		         <input class="but1" id="cancelFltChange" type="button" name="Submit5" value="取消升舱" style="display:none"/>
+
+		          <span id="sctk">
+		         	<input class="but1 orderhide" style="display:none" id="SubmitTP" type="button" name="Submit6" value="退票"/>
+		         	</span>
+
+
+				 <input class="but2 orderhide" style="display:none" id="SubmitPDFTrip" type="button" name="Submit8" value="下载并打印PDF行程单" />
+			</td>
+		</tr>
+		<tr class="orderhide" style="display:none" id="pnrpay">
+			<td>
+			<form method="post" id="pnrpayform" name="pnrpayform" >
+				<input type="hidden" name="payOrders" id="pnrpayPayOrders"/>
+				<input type="hidden" name="payMethod" id="payMethod0"/>
+				<input type="hidden" name="currency" value=""/>
+
+				    <p class="order_line  fc2">
+			    		<label>
+			      			<input id="etdztypepnr1" class="pnretdztype" name="etdzType" type="radio" value="0" />
+			      		支付后手动出票
+			      		</label>
+			    		<label>
+			      			<input id="etdztypepnr2" class="pnretdztype" name="etdzType" type="radio"  value="1" />
+			      		支付后自动出票
+			      		</label>
+			  		</p>
+
+			  		<p class="order_line  fc2">
+				    	<label>支付方式：</label>
+
+
+			    		<label>
+			      			<input id="SubmitZFXN" name="paymethodradio" type="radio"  value="1" />
+			      		虚拟支付
+			      		</label>
+
+
+
+			      	</p>
+
+			      	<p id="xnpass0" style=display:none>
+			      		请输入虚拟支付密码：
+				    	<input type="password" id="pass0" name="vpPasswd"/>
+			      		<input style="display:none" />
+			      	</p>
+
+
+
+			      	<span id="qxsc"><input class="but1" id="cancelChange" type="button" name="Submit5" value="取消升舱"/></span>
+
+
+			      	    <input class="but1" id="SubmitZF" type="button" name="Submit8" value="支付" />
+
+                </form>
+			</td>
+		</tr>
+<!--
+		<tr class="orderhide" style="display:none" id="tktout">
+			<td>
+			<input class="but1" id="SubmitTKT" type="button" name="Submit5" value="出票"/>
+			</td>
+		</tr>
+		-->
+		</table>
+</div>
+<!-- UNTK详细信息展示区域 -->
+<div class="table_detail_cont_p2">
+	<div class="conf_tit">航班保护信息</div>
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="protableinfo1">
+	    <tr>
+	       <th align="left" class="tdbg1">保护类型</th>
+	       <th align="left" class="tdbg1">旅客姓名</th>
+	       <th align="left" class="tdbg1">起飞城市</th>
+	       <th align="left" class="tdbg1">到达城市</th>
+	       <th align="left" class="tdbg1">起飞时间</th>
+	       <th align="left" class="tdbg1">到达时间</th>
+	       <th align="left" class="tdbg1">航班号</th>
+           <th align="left" class="tdbg1">舱位</th>
+           <th align="left" class="tdbg1">发生保护时间</th>
+	    </tr style="background-color:#f6f6f6;">
+
+	</table>
+</div>
+<!-- 改升历史信息展示区域 -->
+<div class="table_detail_cont_p2">
+	<div class="conf_tit">改期升舱历史</div>
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableinfo1">
+	    <tr>
+	       <th align="left" class="tdbg1">改升编号</th>
+	       <th align="left" class="tdbg1">类型</th>
+	       <th align="left" class="tdbg1">状态</th>
+	       <th align="left" class="tdbg1" width="8%" >申请时间</th>
+	       <th align="left" class="tdbg1">支付金额</th>
+	       <th align="left" class="tdbg1">原航班信息</th>
+	       <th align="left" class="tdbg1">改升信息</th>
+	    </tr>
+
+	</table>
+</div>
+
+<!-- 航意险展示  add by shl-->
+
+<!-- add end -->
+
+<div class="table_detail_cont_p2">
+		   <div class="conf_tit">支付信息</div>
+		     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableinfo1">
+               <tr>
+               		 <!--  <th align="left" class="tdbg1">选择</th>-->
+	                 <th align="left" class="tdbg1">网站支付编号</th>
+	                 <th align="left" class="tdbg1">PNR号</th>
+	                 <th align="left" class="tdbg1">银行订单号</th>
+	                 <th align="left" class="tdbg1">支付银行</th>
+	                 <!--
+	                 <th align="left" class="tdbg1">票面价格（总计）</th>
+	                 <th align="left" class="tdbg1">税</th>
+	                  -->
+	                 <th align="left" class="tdbg1">支付金额（总计）</th>
+	                 <th align="left" class="tdbg1">支付发起时间</th>
+	                 <th align="left" class="tdbg1">支付状态</th>
+	                 <th align="left" class="tdbg1">支付类型</th>
+               </tr>
+
+
+					    <tr>
+					    	<!--  <td><input name="button1" id="button1" type="radio" class="inp5"
+					    		value=",
+					    		,
+					    		,
+					    		,
+					    		"
+					    		onclick="getPayStatus(this)"/></td>-->
+					    	<td>PA202006081354022961</td>
+					    	<td>PE76RC</td>
+					    	<td>VT202006081354021695</td>
+
+
+								   <td >
+								   		虚拟支付(CNY)
+									</td>
+
+					    	<!--
+					    	<td></td>
+					    	<td></td>
+					    	<td></td>
+					    	 -->
+					    	<td>400</td>
+					    	<td>2020-06-08 13:54:02</td>
+					    	<td>已支付</td>
+					    	<td>订票支付</td>
+					    </tr>
+
+
+            </table>
+</div>
+
+<div class="table_detail_cont_p2">
+			<div class="conf_tit">联系人信息</div>
+		     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableinfo">
+               <tr>
+	                 <th align="left">联系人</th>
+	                 <th  align="left">联系人手机</th>
+	                 <th  align="left">联系人固定电话</th>
+	                 <th  align="left">联系人电子邮箱</th>
+	                 <th align="left">联系人地址</th>
+               </tr>
+               <tr>
+					    	<td></span></td>
+					    	<td>T WNZ/WNZ/T 0577-88692720 30/WENZHOU HUAXIA AVIATION SERVIC</td>
+					    	<td></td>
+					    	<td></td>
+					    	<td></td>
+				</tr>
+    		</table>
+</div>
+
+<div class="table_detail_cont_p2">
+			<div class="conf_tit">备注信息</div>
+		     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableinfo">
+               <tr>
+	                 <th width="60%" align="left">备注内容</th>
+	                 <!-- <th  align="left">添加人</th>  -->
+	                 <th width="40%" align="left">添加时间</th>
+               </tr>
+
+
+    		</table>
+</div>
+		     <table width="100%" border="0" cellpadding="0" cellspacing="0">
+			   <tr>
+			     <td>
+
+			     <input class="but2 orderhide" style="display:none" id="SubmitSendEmail" type="button" value="发送短信/邮件" />
+
+			     <input class="but1 orderhide" style="display:none" id="SubmitQXRK" type="button" name="Submit1" value="取消入库"/>
+		         <input class="but1 orderhide" style="display:none" id="SubmitDDZF" type="button" name="Submit2" value="订单作废"/>
+		         <input class="but1 orderhide" style="display:none" id="SubmitCCTK" type="button" name="Submit4" value="差错退款" />
+
+
+
+			            <input class="but1 orderhide" style="display:none" id="SubmitBX" type="button" name="Submit7" value="打印报销凭证" />
+
+
+
+				</td>
+		       </tr>
+
+			   <tr  class="orderhide" style="display:none" id="orderpay">
+			     <td><table border="0" cellspacing="3" cellpadding="0">
+                   <tr>
+                     <td>
+                    <form method="post" id="orderpayPayform" name="orderpayPayform" >
+					<input type="hidden" name="payOrders" id="orderpayPayOrders"/>
+					<input type="hidden" name="payMethod" id="payMethod1"/>
+
+				    <p class="order_line  fc2">
+				    	<label>
+				    	支付金额：
+				    	<em id="orderamount">400</em>
+				    	</label>
+			    		<label>
+			      			<input id="etdztype1" class="orderetdztype" name="etdzType" type="radio" value="0" />
+			      		    支付后手动出票
+			      		</label>
+			    		<label>
+			      			<input id="etdztype2" class="orderetdztype" name="etdzType" type="radio"  value="1" />
+			      		    支付后自动出票
+			      		</label>
+			  		</p>
+
+			  		<p class="order_line  fc2">
+				    	<label>支付方式：</label>
+
+
+				    		<label>
+				      			<input id="SubmitZFXN1" name="paymethodradio1" type="radio"  value="1" />
+				      		    虚拟支付
+				      		</label>
+
+
+
+			      	</p>
+
+			      	<p id="xnpass" style="display:none">
+			      		请输入虚拟支付密码：
+				    	<input type="password" id="pass1" name="vpPasswd"/>
+			      		<input style="display:none" />
+			      	</p>
+			      	<p id="weblinkpass" style="display:none; position:relative">
+			      		请输入weblink支付密码:
+				    	<input  id="weblink1" name="weblinkPswd" type="password" value=""/>
+				    	<span id="weblinktips1" style="position:absolute; width:220px;"></span>
+			      	</p>
+			      	<p id="cdpvpaypass" style="display:none">
+			      		CDP虚拟支付密码
+				    	<input type="password" id="cdpvpaypswd1" name="cdpvpaypswd"/>
+			      		<input style="display:none" />
+			      	</p>
+
+
+					       <input class="but1" id="SubmitZF1" type="button" name="Submit8" value="支付" />
+
+                     </form>
+                     </td>
+                   </tr>
+                 </table></td>
+		       </tr>
+			 </table>
+	<form id="PNRSelectform" action="FrontOrderDetailQuery.do" method="post">
+		<input type="hidden" class="reservationid" id="reservationID" name="reservationID" value="" />
+		<input type="hidden" name="recno" id="recno"/>
+		<input type="hidden" name="userid" id="userid"/>
+		<input type="hidden" name="queryType" id="queryType" value="pnrdetailquery"/>
+	</form>
+
+	<form action="" method="post" id="submitform">
+		<input type="hidden" class="submitpnr" id="submitPnr" name="pnrno" value="" />
+		<input type="hidden" class="submitpnr" id="anotherPnr" name="pnrNo" value="" />
+		<input type="hidden" class="submitOrderPnrId" id="submitOrderPnrId" name="orderPnrId" value="" />
+		<input type="hidden" name="rec_no" id="submitRecno" value='RN202006081353579813'/>
+		<input type="hidden" name="recno" value='RN202006081353579813'/>
+		<input type="hidden" name="recNo" value='RN202006081353579813'/>
+		<input type="hidden" name="payOrders" value='RN202006081353579813'/>
+		<input type="hidden" class="submitResID" id="submitReservationID" name="reservationID" value="" />
+		<input type="hidden" name="BPnrNo" id="bpnr" value='' />
+		<input type="hidden" name="ordertype" value='0' />
+		<input type="hidden" name="serviceMode" id="rs.orderDetail.serviceMode" value='0'/>
+		<input type="hidden" name="isCDS" value ='' />
+		<input type="hidden" name="isSUB" value ="" />
+
+		   <input type="hidden" name="vipCode" value ='' />
+
+	</form>
+
+	<p></p>
+	<div class="clearb"></div>
+    </div>
+
+	<!-- 改升历史详情查询 -->
+	<form id="querydetailform" action="FltChangeDetail.do">
+		<input type="hidden" name="recNo" value='RN202006081353579813'/>
+		<input type="hidden" class="submitpnr" name="pnrNo" value="" />
+		<input type="hidden" id="changesegid" name="changeSegId" value="" />
+		<input type="hidden" class="submitOrderPnrId" name="orderPnrId" value="" />
+		<input type="hidden" name="isCDS" value=''/>
+	</form>
+
+		<form id="queryInsOrderDetailForm" action="InsOrderDetail.do">
+			<input type="hidden" name="insOrderId" id="insOrderId"/>
+
+		</form>
+
+		<form action="FrontRefundDetail.do" method="post" id="refundinfoqueryform">
+			<input type="hidden" name="recNo" id="recno_id"/>
+			<input name="begin" id="begin_id" type="hidden" />
+		    <input name="length" id="length_id" type="hidden" />
+		    <input name="isCds" id="refund_isCds" type="hidden" value=""/>
+			<input type="hidden" name="queryType" id="queryType_id" value="newquery"/>
+		</form>
+
+		<form action="FrontErrRefundOrderQuery.do" method="post" id="errrefundinfoqueryform">
+			<input type="hidden" name="recNo" id="recno_ct"/>
+			<input name="begin" id="begin_ct" type="hidden" />
+		   <input name="length" id="length_ct" type="hidden" />
+			<input type="hidden" name="queryType" id="queryType_ct" value="newquery"/>
+		</form>
+
+		<form action="ScreenTxt.do" method="post" id="screenTextForm">
+			<input type="hidden" name="tktno" id="tktno_rt"/>
+			<input type="hidden" name="pnrNo" id="pnrno_rt"/>
+			<input type="hidden" name="publicKey" id="publicKey"/>
+			<input type="hidden" name="queryType" id="queryType_rt" value="RT"/>
+			<input type="hidden" name="pnrSysType" id="pnrSysType" value=""/>
+			<input type="hidden" name="orderType" value='0'/>
+			<input type="hidden" name="hasIetSeg" value='false'/>
+			<input type="hidden" name="segAirLineCode" value=''/>
+		</form>
+
+		<form action="" id="cancelChangeForm" method="post">
+			<input type="hidden" class="submitpnr" name="pnrNo" value="" />
+			<input type="hidden" name="recNo" id="recNo" value='RN202006081353579813'/>
+			<input type="hidden" class="submitOrderPnrId" name="orderPnrId" value="" />
+		</form>
+
+		<form action="" id="tktoutForm" method="post">
+			<input type="hidden" name="recNo" id="RecNo" value='RN202006081353579813'/>
+			<input type="hidden" name="bpnrNo" id="bPnrNo"/>
+			<input type="hidden" class="submitOrderPnrId" name="orderPnrId" value="" />
+		</form>
+
+		<form action="payPreBankSelect.do" id="payselectform" method="post">
+		   <input type="hidden" id="newPayOrders" name="payOrders" value='' />
+		   <input type="hidden" id="newEtdztype" name="etdzType" value="" />
+		   <input type="hidden" id="newPayMethod" name="payMethod"/>
+		   <input type="hidden" name="currency"  value=""/>
+		</form>
+
+		<form id="queryform" action="FrontOrderDetailQuery.do" method="post">
+		   <input type="hidden" name="recNo" id="queryRecNo" value='' />
+		   <input type="hidden" name="userId" id="newuserid" value='LVMAMA03_LVMAMA'/>
+		   <input type="hidden" name="queryType" id="newqueryType" value="recnodetailquery"/>
+		</form>
+
+		<form action="getEmsQueryDetail.do" method="post" id="emsTicketScreenTextForm">
+			<input type="hidden" name="ticketNo" id="ticketNo"/>
+			<input type="hidden" name="bookType" id="bookType"/>
+		</form>
+
+		<!-- 提交EMS单独差退的表单 -->
+		<form action="emsErrRefundShow.do" method="post" id="emsErrRefundForm">
+			<input type="hidden" name="refundNoStr" id="errRefundNoStr"/>
+			<input type="hidden" name="recNo" id="ems_No"/>
+			<input type="hidden" name="pnrNo" id="ems_pnrNo"/>
+		</form>
+		<!-- 提交EMS退票的表单 -->
+		<form action="emsRefund.do" method="post" id="emsRefundForm">
+			<input type="hidden" name="refundNoStr" id="refundNoStr"/>
+			<input type="hidden" name="recNo" id="ems_recNo"/>
+		</form>
+		<!-- EMS出票的表单 -->
+		<form action="emsTicketOut.do" method="post" id="outEmdTicketFrom">
+		    <input type="hidden" name="recNo" id="emdOutTicketRecNo"/>
+			<input type="hidden" class="submitpnr" name="pnrNo" value="" />
+			<input type="hidden" class="submitOrderPnrId" name="orderPnrId" value="" />
+		</form>
+		<!-- END -->
+
+		<input type="hidden" name="payselect" id="payselect" value='' />
+
+
+
+<script type="text/javascript">
+var sWaitingBoxLan = "zh_CN";
+</script>
+
+
+
+<!-- start：弹出浮层模块 -->
+	<div class="pop-payment hidden" style="width: 500px;margin-left:-250px">
+		<div class="pop-hd"><span class="ico-del"></span>支付提示</div>
+		<div class="pop-bd" style="text-align:center">
+			<p class="ord-info">
+            <span class="info-msg" id="orderInfo"></span><!-- 订单信息： -->
+            <span class="info-msg" id="payInfo"></span><!-- 支付金额：<em></em> -->
+			</p>
+			<p>
+
+			</p class="ord-info">
+			   <span>请您在新打开的页面完成付款！支付完成前请不要关闭此页面。</span>
+			<div class="pay-pl">
+				        <input class="but2" type="button" id="paysuccess-id" value="已完成支付" onclick="return doquery()"/>&nbsp;&nbsp;&nbsp;&nbsp;
+				        <input class="but2" type="button" id="reordrepay" value="支付失败，重新支付"/>
+
+			</div>
+		</div>
+	</div>
+<!-- end：弹出浮层模块 -->
+
+
+
+<script type="text/javascript">
+var sWaitingBoxLan = "zh_CN";
+</script>
+
+
+<html>
+<body>
+<!-- start：弹出浮层模块 -->
+	<div class="pop-update hidden" style="width: 600px;margin-left:-250px;margin-top:300px">
+		<div class="pop-hd"><span class="ico-del"></span>修改旅客API信息</div>
+		<div class="pop-bd" style="text-align:center">
+			<p>
+			</p class="ord-info">
+			   <span>
+		<form id="updateform" action="modifyPsgerInfo.do" method="post">
+		    	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableleft">
+					<tr>
+						<th>旅客姓名：</th>
+						<td>
+						<samp id="api-psgname"></samp></br>
+						</td>
+					</tr>
+					<tr>
+						<th>证件号码：</th>
+		    			<td>
+		    			<input class="newApi" id="api-doc" value="" type="text" >
+		    			</td>
+		    			<th>(原证件号码：</th>
+		    			<td>&nbsp;&nbsp;&nbsp;<samp id="old-doc"></samp>
+		    			)</td>
+		    		</tr>
+
+    			</table>
+    			<div class="pay-pl">
+    			<input type="hidden" value="" id="api-psgerId"/>
+    			<input type="hidden" value="" id="api-gender"/>
+    			<input type="hidden" value="" id="api-psgerRPH"/>
+    			<input type="hidden" value="" id="api-index"/>
+		        <input class="but2" type="button" id="updatesuccess-id" value='修改' onclick="return update();"/>&nbsp;&nbsp;&nbsp;&nbsp;
+		        <input class="but2" type="button" id="close" value='关闭' onclick="$('.ico-del').click()"/>
+				</div>
+			</form>
+	    	</span>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+var msg_ylxue_001 = "请认真检查所修改的旅客API信息是否正确!";//请认真检查所修改的旅客API信息是否正确!
+var isShowPassportChinaIdCard = false;
+//去掉所有空格
+function trimMid(s){
+	var   reg = /\s/g;
+	var  leftk = /^\s\s*/;
+	var rightk = /\s\s*$/;
+	var   strr = s.replace(reg,"").replace(leftk,"").replace(rightk,"");
+	return strr;
+};
+function update(){
+		$("input:radio[name='api-gender']").each(function(index){
+			if($(this).attr("checked") == true){
+				$("#api-gender").attr("value",$(this).val());
+			}
+	    });
+		index=$("#api-index").val();
+		if(isShowPassportChinaIdCard){
+			if($.trim($("#api-doc").val())===""&&$.trim($("#api-passport").val())===""){
+				alert(msg_zl_1033);
+				return false;
+			}
+		}else{
+		if($.trim($("#api-doc").val())===""){
+			alert(msg_zl_1033);
+			return false;
+		}
+
+		}
+		if(($.trim($("#old-doc").text()) === $.trim($("#api-doc").val()))
+				&&($.trim($("#old-expireDate").text()) === $.trim($("#api-expireDate").val()))
+				&&($.trim($("#old-birthday").text()) === $.trim($("#api-birthday").val()))
+				&&("" === $.trim($("#api-country_hidden").val())||$.trim($("#old-issueCountry").text()) === $.trim($("#api-country_hidden").val()))
+				&&("" === $.trim($("#api-nationality_hidden").val())||$.trim($("#old-nationality").text()) === $.trim($("#api-nationality_hidden").val()))
+				&&($.trim($("#old-gender").text()) === $.trim($("#api-gender").val()))&&($.trim($("#old-passport").text())===$.trim($("#api-passport").val()))){
+			alert(msg_zl_1037);
+			return false;
+		}
+		if(ordertype==1){
+			if(isShowPassportChinaIdCard){
+				if($.trim($("#api-passport").val())!=""){
+					if(!isDatePart($("#api-expireDate").val())||!isDatePart($("#api-birthday").val())){
+						alert(msg_zl_1072);
+						return false;
+					};
+				}
+			}else{
+				if(!isDatePart($("#api-expireDate").val())||!isDatePart($("#api-birthday").val())){
+					alert(msg_zl_1072);
+					return false;
+				};
+			}
+		}
+		if(!window.confirm(msg_ylxue_001+"\n"+"\n"+msg_zl_1055)){
+			return false;
+		}
+		showWaitingBox();
+		$("#api-doc").attr("value",trimMid($("#api-doc").val()));
+		if($("#api-passport").val() != null && $("#api-passport").val() != ""){
+			$("#api-passport").attr("value",trimMid($("#api-passport").val()));
+		}
+		$.post("modifyPsgerInfo.do",{recNo:recno,recNoeb:$(".submitResID").val(),idnoNew:$("#api-doc").val(),idnoOld:$("#old-doc").text(),orderPnrId:$(".submitOrderPnrId").val(),
+			psgerRPH:$("#api-psgerRPH").val(),expireDateNew:$("#api-expireDate").val(),birthday:$("#api-birthday").val(),isCDS:isCDS,psgId:$("#api-psgerId").val(),
+			issueCountry:$("#api-country_hidden").val(),nationality:$("#api-nationality_hidden").val(),gender:$("#api-gender").val(),passportNew:$("#api-passport").val(),passportOld:$("#old-passport").text()},
+		function(data){
+			hideWaitingBox();
+			if(data=="success"){
+				alert(msg_zl_1066);
+				$("#passport"+index).html($("#api-passport").val());
+				$("#docid"+index).html($("#api-doc").val());
+				$("#expireDate"+index).html($("#api-expireDate").val());
+				$("#psgerId"+index).html($("#api-psgerId").val());
+				$("#birthday"+index).html($("#api-birthday").val());
+				$("#psgerRPH"+index).html($("#api-psgerRPH").val());
+				if("" !== $.trim($("#api-country_hidden").val())){
+					$("#issueCountry"+index).attr("value",$("#api-country_hidden").val());
+				}
+				if("" !== $.trim($("#api-nationality_hidden").val())){
+					$("#nationality"+index).attr("value",$("#api-nationality_hidden").val());
+				}
+				$("#gender"+index).attr("value",$("#api-gender").val());
+				$(".ico-del").click();
+				return false;
+			}else{
+				alert(data);
+				$(".ico-del").click();
+			}
+
+		});
+}
+</script>
+</html>
+<!-- end：弹出浮层模块 -->
+		<div id="waitingbox" class="waitingbox" style="display:none;">请求处理中，请稍等！</div>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/util.js?v=20200511155343204"></script>
+<script type="text/javascript" src="js/waitingbox.js?v=20200511155343204"></script>
+<script type="text/javascript" src="js/AjaxUtils.js?v=20200511155343204"></script>
+<link rel="stylesheet" type="text/css" href="css/jqueryUI/jquery.flexbox.css?v=20200511155343204" />
+<script type="text/javascript" src="js/jqueryUI/jquery.flexbox.min.js?v=20200511155343204"></script>
+<script type="text/javascript" src="js/name.js?v=20200511155343204"></script>
+<link rel="stylesheet" type="text/css" href="css/jqueryUI/jquery.ui.datepicker.css?v=20200511155343204" />
+<script type="text/javascript" src="js/jqueryUI/jquery.ui.datepicker.min.js?v=20200511155343204"></script>
+<script type="text/javascript" src="js/jqueryUI/jquery.ui.datepicker-en-GB.js?v=20200511155343204"></script>
+<script type="text/javascript" src="js/jqueryUI/jquery.ui.datepicker-zh-CN.js?v=20200511155343204"></script>
+<script type="text/javascript" src="js/jqueryUI/jquery.ui.core.min.js?v=20200511155343204"></script>
+<script type="text/javascript">
+	var isCDS = ''
+    var wbdiv = document.getElementById("waitingbox");
+	var recno='RN202006081353579813';
+	var recnoeb='202006081353576062';
+	var errmsg="未有PNR被选取";
+	var orderstatus = '3';//订单状态
+	var bargainstatus = '' ;//订单议价状态
+	var isGrp = '0';
+	var commonGrp = '1';
+	var pnrjson = eval([{'pnr':'PE76RC','adt':'1','gm':'0','jc':'0','chd':'0','inf':'0'}]);
+	var grpchange = 'false';
+	var ordertype = '0';
+	var pnrAfterSecondAudit = false;
+	var isInterFitBargain = false ;//国际散客议价入库
+	var weblinkpay = false;
+	// 显示EMD退票按钮标识
+	var emdCanRefund = 'false';
+	// 显示EMD出票按钮标识
+	var emdCanOutTkt = 'false';
+	// 显示EMD差错退款按钮标识
+	var emdCanErrRefund = 'false';
+
+	//add by zlong 国际化
+	var msg_zl_673 = "未有PNR被选取";//未有PNR被选取
+	var msg_zl_799 = "您确定要进行团队议价取消操作?";//您确定要进行团队议价取消操作?
+	var msg_zl_806 = "您确定要进行散客议价取消操作?";//您确定要进行散客议价取消操作?
+	var msg_zl_920 = "请选择支付方式!";//请选择支付方式!
+	var msg_zl_926 = "请输入虚拟支付密码";//请输入虚拟支付密码
+	var msg_zl_954 = "您确定要进行取消入库操作?";//您确定要进行取消入库操作?
+	var msg_zl_965 = "您确定要对该订单进行作废操作?";//您确定要对该订单进行作废操作?
+	var msg_zl_980 = "请选择要操作的PNR";//请选择要操作的PNR
+	var msg_zl_1033 = "证件号码不能为空！";//证件号码不能为空！
+	var msg_zl_1037 = "证件信息未做修改！";//证件号码未做修改！
+	var msg_zl_1044 = "证件信息有重复，请检查后再做修改！";//证件号码有重复，请检查后再做修改！
+	var msg_zl_1052 = "乘客姓名：";//乘客姓名：
+	var msg_zl_1053 = "原证件号码：";//原证件号码：
+	var msg_zl_1054 = "新证件号码：";//新证件号码：
+	var msg_zl_1055 = "确定提交证件信息修改申请吗？";//确定提交证件号码修改申请吗？
+	var msg_zl_1066 = "证件信息修改成功！";//证件号码修改成功
+	var msg_zl_1069 = "无法修改该用户的证件信息！";//无法修改该用户的证件信息！
+	/**修改后的证件有效期为：*/
+	var msg_zl_1070 = '修改后的证件有效期为：';
+	/**原证件有效期为：*/
+	var msg_zl_1071 = '原证件有效期为：';
+	/**日期格式不正确！正确的格式为：xxxx-xx-xx*/
+	var msg_zl_1072 = '日期格式不正确！正确的格式为：xxxx-xx-xx';
+	var msg_zl_1081 = "确认取消升舱？";//确认取消升舱？
+
+
+	var frerrmsg6 = "联系手机填写错误,且不能为空";//联系手机填写错误,且不能为空
+	var msg_jz_87 = "抱歉，请输入值机旅客姓名！";//抱歉，请输入值机旅客姓名！
+	var msg_jz_93 = "抱歉，请输入值机凭证号码！";;//抱歉，请输入值机凭证号码！
+	var msg_jz_104 ="抱歉，请选择值机始发城市！";//抱歉，请选择值机始发城市！
+	var msg_jz_110 ="抱歉，请输入航空公司机构名称！";//抱歉，请输入航空公司机构名称！
+	var msg_jz_219 ="抱歉，不能进行值机操作，当前票面状态为：";//抱歉，不能进行值机操作，当前票面状态为：
+	var msg_jz_221 ="抱歉，不能进行取消值机操作，当前票面状态为：";//抱歉，不能进行取消值机操作，当前票面状态为
+	var msg_jz_252 ="请选择需要值机的旅客！";//请选择值机旅客！
+	var msg_jz_253 ="旅客尚未出票，不允许进行值机相关操作！";//旅客尚未出票，不允许进行值机相关操作！
+
+	var msg_weblink = '请输入weblink支付密码';//请输入weblink支付密码
+	var msg_weblink_error = 'Weblink支付密码错误！';
+	var msg_weblink_locked='Weblink支付功能被锁！';
+	var msg_weblink_access = '没有Weblink支付权限！';
+	var msg_weblink_close='未开通';
+	var msg_weblink_freezen = '冻结';
+	var msg_weblink_shutdown = '未开通';
+
+	var msg_cdpvpay_error = "请输入CDP虚拟支付密码";	// 请填写虚拟支付密码
+
+	var msg_emd_confirm = '确定取消预订?';
+	var msg_emd_tips    = '请选择需要操作的EMD票!'; //请选择需要退票的EMD票
+	var msg_emd_cancel = '已取消';
+	var msg_emd_cancel_success = '预订取消成功！';
+
+	var msg_emd_refund_confirm = '确定提交EMD退票？';//确定提交EMD退票？
+	var msg_emd_refund = '已退票';//已退票
+	var msg_emd_refund_success = 'EMD退票成功！';//EMD退票成功
+	var msg_emd_refund_fail = '请求发生错误，非航产品退票失败！';//EMD退票失败
+	var msg_emd_refund_message = '退票操作完成，退票记录已生成，但由于部分EMD票的票面状态未更新成功，因此退票状态为退票申请异常状态，请在退票详情页面进行查看与重提退票操作来更新票面状态，以便完成后续的退款操作。';//EMD退票提示信息
+	var msg_isGrp = "该订单为团队票，需在团队订单查询中申请退票！";
+
+	/**当前语言类型*/
+	var currentLanguage = "zh_CN";
+	var checkInParameter = {};
+	checkInParameter.airlineCode = 'Y8';
+	checkInParameter.userID = 'Y8';
+	checkInParameter.webCkiUrl = ' ';
+	var isOSAgent = false;//是否为海外代理
+	//获取国家标识
+	var cityLanguage = getAirportDisplayNameByLanguage(currentLanguage);
+	//没有对应的国家
+	var msg_jz_609 = "没有对应的国家";
+	//中文/拼音/二字码
+	var msg_jz_613 = "中文/拼音/二字码";//中文/拼音/二字码
+	//中国
+	var msg_jz_624 = "中国";
+	var sToolBarLan = "zh_CN";
+	var datePikerLan = getB2BDatePickerLanguage(sToolBarLan);
+	$(document).ready(function(){
+		var currency = "CNY";
+		$("input[name='currency']").val(currency);
+		$.datepicker.setDefaults($.datepicker.regional[datePikerLan]);
+		var dates=$("#api-expireDate,#api-birthday").datepicker({
+			gotoCurrent:true,
+			showAnim: jQuery.support.boxModel ? 'fadeIn' : null,
+			duration: jQuery.support.boxModel ? 'normal' : '',
+			duration:'fast',
+			prevText: '', // Display text for previous month link
+			nextText: '', // Display text for next month link
+			showAnim: null,
+			changeYear:true,
+			changeMonth: true,
+			dateFormat: "yy-mm-dd",
+			onSelect: function( selectedDate ) {
+				var instance = $( this ).data( "datepicker" ),
+				date = $.datepicker.parseDate(
+				instance.settings.dateFormat ||
+				$.datepicker._defaults.dateFormat,
+				selectedDate, instance.settings );
+			}
+		});
+		var payrdo = true;
+		if(payrdo){
+			$("#etdztypepnr2").attr("checked",true);
+		}else{
+			$("#etdztypepnr1").attr("checked",true);
+		}
+
+		var payrdo = true;
+		if(payrdo){
+			$("#etdztype2").attr("checked",true);
+		}else{
+			$("#etdztype1").attr("checked",true);
+		}
+		var payrdo = true;
+		if(payrdo){
+			$("#SubmitZFZX").attr("checked",true);
+		}else{
+			$("#SubmitZFXN").attr("checked",true);
+		}
+		var payrdo = true;
+		if(payrdo){
+			$("#SubmitZFZX1").attr("checked",true);
+		}else{
+			$("#SubmitZFXN1").attr("checked",true);
+		}
+
+
+		if(orderstatus =='0'){
+			//等待入库状态，可以订单作废
+			$("#SubmitDDZF").show();
+			$("#SubmitZJRK").show();
+			if(isGrp == commonGrp){
+				$("#SubmitTDYJ").show();
+				$("#SubmitLKXXSR").show();
+			}
+		}else if(orderstatus =='1'){
+			//等待支付状态，可以订单作废，支付，取消入库
+			$("#orderpay").show();
+			$("#SubmitDDZF").show();
+			$("#SubmitQXRK").show();
+		}else if(orderstatus =='2'){//DDCP
+			$("#SubmitCCTK").show();
+		}else if(orderstatus =='3'){//CPWC
+		/**	if(createreason == '3'){
+  				$("#sctk").hide();
+  			}*/
+			$("#SubmitDDGQJG").show();
+			$("#SubmitBX").show();
+			$("#SubmitBXPZ").show();
+
+			$("#SubmitPDFTrip").show();
+			if(!weblinkpay){
+				$("#SubmitCCTK").show();
+			}
+			$("#SubmitSendEmail").show();
+		}else if(orderstatus == '4' ){//ZFDD&& bargainstatus == '21'
+			if(isGrp == commonGrp){
+				$("#SubmitYJCT").show();
+			}
+		}else if(orderstatus =='5'){//QXRK
+			$("#SubmitDDZF").show();
+			$("#SubmitZJRK").show();
+		}else if(orderstatus =='6'){//ZFWC
+			$("#SubmitCCTK").show();
+		}else if(orderstatus =='7'){//CCTK
+			$("#SubmitCCTK").show();
+		}else if(orderstatus =='10'){//YJSQZ
+			if(isGrp == commonGrp){
+				$("#SubmitTDYJQX").show();
+			}
+			if(isInterFitBargain && isGrp!=commonGrp){//国际散客议价取消 jianzli fix add && !isGrp
+				$("#SubmitSKYJQX").show();
+			}
+		}else if(orderstatus =='11'){//DDYJRK
+			if(isGrp == commonGrp){
+				$("#SubmitLTDYJRK").show();
+			}
+			if(isInterFitBargain &&isGrp!=commonGrp){//国际散客议价入库 jianzli fix add && !isGrp
+				$("#SubmitSKYJRK").show();
+			}
+		}else if(orderstatus == '-'){//MF 订单 未议价 zhuguojing add
+			//作废
+			$("#SubmitDDZF").show();
+			if(isGrp == commonGrp){
+				//团队议价
+				$("#SubmitTDYJ").show();
+				//旅客信息输入
+				$("#SubmitLKXXSR").show();
+			}
+		}
+
+		/*设置页面初始选中的radio为第一个*/
+		$(":radio:eq(0)").trigger("click");
+
+		if(isGrp!='1'){//非团队订单，不显示团队名称
+			$(".grpclass").hide();
+		}
+
+		$("#SubmitSendEmail").click(function(){
+			/*点击发送邮件按钮*/
+			openWindow("https://y8b2b.travelsky.com:443/y8b2b/"+"commonjsp/wait.jsp","msgwindow","height=600,width=800,resizable=yes");
+			$("#submitform").attr("action","orderMsgShow.do").attr("target","msgwindow").submit();
+			//$("#submitform").attr("action","orderMsgShow.do").submit();
+		});
+
+
+		$("#SubmitZJRK").click(function(){
+			/*点击直接入库按钮*/
+			if(ordertype =='0'){
+				$("#submitform").attr("action","PNRQuery.do").submit();
+			}else{
+				$("#submitform").attr("action","IPNRQuery.do").submit();
+			}
+		});
+
+		$("#SubmitTDYJQX").click(function(){
+			/*点击团队议价取消按钮*/
+			if(confirm(msg_zl_799)){
+				$("#submitform").attr("action","HostCancelBargin.do").submit();
+			}
+		});
+
+		$("#SubmitSKYJQX").click(function(){
+			/*点击散客议价取消按钮*/
+			if(confirm(msg_zl_806)){
+				$("#submitform").attr("action","HostCancelFitBargin.do").submit();//jianzli fixed:  HostCancelFitBargin.do
+			}
+		});
+
+		$("#SubmitLTDYJRK").click(function(){
+			/*点击团队议价入库按钮*/
+			$("#submitform").attr("action","GrpPNRQuery.do").submit();
+		});
+
+		$("#SubmitTDYJ").click(function(){
+			/*点击团队议价按钮*/
+			$("#submitform").attr("action","Bargin.do").submit();
+		});
+
+		$("#SubmitSKYJRK").click(function(){
+			/*点击散客议价入库按钮*/
+			$("#submitform").attr("action","GrpPNRQuery.do").submit();
+		});
+
+		$("#SubmitLKXXSR").click(function(){
+			/*点击旅客信息输入按钮*/
+			$("#submitform").attr("action","Pnrgrp.do").submit();
+		});
+
+		$("#SubmitDDGQJG").click(function(){
+			/*点击订单挂起按钮*/
+			$("#submitform").attr("action","TktSuspendSearch.do").submit();
+		});
+
+	    $("#SubmitCCTK").click(function(){
+			/*点击差错退款按钮*/
+			$("#submitform").attr("action","ErrRefundQuery.do").submit();
+		});
+	    $(".proNewDetails").click(function(){
+            /*点击旅客保护信息显示原航段信息*/
+            if($(this).hasClass("btn-down")){
+                $("tr[name='" + $(this).attr("id") + "']").show();
+                $(this).removeClass('btn-down');
+                $(this).addClass('btn-up');
+              }else{
+                $("tr[name='" + $(this).attr("id") + "']").hide();
+                $(this).removeClass('btn-up');
+                $(this).addClass('btn-down');
+              }
+        });
+		//pnr支付
+		$("#SubmitZFZX").click(function(){
+			$("#payMethod0").val("0");
+			$("#xnpass0").hide();
+			$('#weblinkpass0').hide();
+			$('#cdpvpaypass0').hide();
+		});
+		$("#SubmitZFXN").click(function(){
+			$("#payMethod0").val("1");
+			$('#weblinkpass0').hide();
+			$("#xnpass0").show();
+			$('#cdpvpaypass0').hide();
+		});
+		$('#weblinkpayradio').bind('click', function(){
+			$('#payMethod0').val('2');
+			$('#xnpass0').hide();
+			$('#weblinkpass0').show();
+			$('#cdpvpaypass0').hide();
+		});
+		$('#cdpvpaypayradio').bind('click', function(){
+			$('#payMethod0').val('3');
+			$('#xnpass0').hide();
+			$('#weblinkpass0').hide();
+			$('#cdpvpaypass0').show();
+		});
+		//初始化虚拟支付密码输入框
+		var val=$('input:radio[name="paymethodradio"]:checked').val();
+        if(val === '1'){
+             $("#payMethod0").val("1");
+			 $("#xnpass0").show();
+			 $('#weblinkpass0').hide();
+			 $('#cdpvpaypass0').hide();
+        }else if(val === '2'){
+        	 $("#payMethod0").val("2");
+      		 $("#weblinkpass0").show();
+      		 $("#xnpass0").hide();
+			 $('#cdpvpaypass0').hide();
+        }else if(val === '3'){
+	       	 $("#payMethod0").val("3");
+	  		 $("#weblinkpass0").hide();
+	  		 $("#xnpass0").hide();
+			 $('#cdpvpaypass0').show();
+    	}else{
+        	 $("#payMethod0").val("0");
+			 $("#xnpass0").hide();
+			 $('#weblinkpass0').hide();
+			 $('#cdpvpaypass0').hide();
+        }
+
+		$('#SubmitZF').bind('click', function(){
+			pnrPay(0);
+		});
+
+		$('#pnrpay-btn').bind('click', function(){
+			pnrPay(1);
+		});
+
+		$('#reordrepay').bind('click', function(){
+			caPnrPaySubmit();
+		});
+
+
+		//订单支付
+		$("#SubmitZFZX1").click(function(){
+			$("#payMethod1").val("0");
+			$("#xnpass").hide();
+			$('#weblinkpass').hide();
+			$('#cdpvpaypass').hide();
+	    	$('#etdztype2').attr("disabled","");
+	    	$('#etdztype1').attr("disabled","");
+		});
+
+		$("#SubmitZFXN1").click(function(){
+			$("#payMethod1").val("1");
+			$("#xnpass").show();
+			$('#weblinkpass').hide();
+			$('#cdpvpaypass').hide();
+	    	$('#etdztype2').attr("disabled","");
+	    	$('#etdztype1').attr("disabled","");
+		});
+
+		$('#weblinkpayradio1').bind('click', function(){
+			$('#payMethod1').val('2');
+			$('#xnpass').hide();
+			$('#weblinkpass').show();
+			$('#cdpvpaypass').hide();
+	    	$('#etdztype2').attr("checked",true);
+	    	$('#etdztype1').attr("disabled",'disabled');
+		});
+
+		$('#cdpvpaypayradio1').bind('click', function(){
+			$('#payMethod1').val('3');
+			$('#xnpass').hide();
+			$('#weblinkpass').hide();
+			$('#cdpvpaypass').show();
+			$('#etdztype2').attr("disabled","");
+	    	$('#etdztype1').attr("disabled","");
+		});
+
+		//初始化虚拟支付密码输入框
+		var val=$('input:radio[name="paymethodradio1"]:checked').val();
+        if(val==='1'){
+            $("#payMethod1").val("1");
+			$("#xnpass").show();
+			$('#weblinkpass').hide();
+			$('#cdpvpaypass').hide();
+        }else if(val === '2'){
+            $("#payMethod1").val("2");
+			$("#xnpass").hide();
+			$('#weblinkpass').show();
+			$('#cdpvpaypass').hide();
+        }else if(val === '3'){
+            $("#payMethod1").val("3");
+			$("#xnpass").hide();
+			$('#weblinkpass').hide();
+			$('#cdpvpaypass').show();
+        }else{
+            $("#payMethod1").val("0");
+			$("#xnpass").hide();
+			$('#weblinkpass').hide();
+			$('#cdpvpaypass').hide();
+        }
+
+		 $('#SubmitZF1').bind('click', function(){
+			orderPay(0);
+		});
+
+		 $('#orderpay-btn').bind('click', function(){
+			orderPay(1);
+		});
+
+		$("#reordrepay").bind('click',function(){
+			caOrderPaySubmit();
+		});
+
+		$("#SubmitBX").click(function(){
+			/*点击打印报销凭证按钮*/
+			$("#submitform").attr("action","ReceiptPrint.do").submit();
+		});
+
+		$("#SubmitBXPZ").click(function(){
+			/*点击打印报销凭证按钮,当后台管理启用时有用*/
+			$("#submitform").attr("action","ReceiptPrintPnr.do").submit();
+		});
+
+		$("#SubmitGQ").click(function(){
+	  		/*点击改期按钮*/
+	  		$("#submitform").attr("action","pnrPsgTktDetail.do").submit();
+	  	});
+	  	$("#SubmitTP").click(function(){
+	  		/*点击退票按钮*/
+	  		/*判断是否为团队票*/
+	  		if(isGrp == '1'){
+	  		    alert(msg_isGrp);
+	  		}else{
+	  		    $("#submitform").attr("action","RefundShowApplication.do").submit();
+	  		}
+	  	});
+	  	$("#SubmitCP").click(function(){
+	  		/*点击出票按钮*/
+	  		$("#tktoutForm").attr("action","OrderTicketOut.do").submit();
+	  	});
+	  	$("#SubmitQXRK").click(function(){
+	  		/*点击取消入库按钮*/
+	  		if(confirm(msg_zl_954)){
+	  			var emdList = '';
+	            $("td[id^=emd_item_]").each(function(index){
+	            	//判断为等待支付
+	            	if($(this).attr("status") == 0){
+	            		var value = $(this).attr("id");
+		                emdList += value.replace("emd_item_","") +"#";
+	            	}
+	            });
+	            var input = "<input type='hidden' name='emdNolist' value='" + emdList + "' />";
+				$("#submitform").attr("action","CancelHostin.do").append(input).submit();
+	  		}
+	  	});
+	  	/*议价重提*/
+	  	$("#SubmitYJCT").click(function(){
+	  		$("#submitform").attr("action","ToReBarginAV.do").submit();
+
+	  	});
+	  	$("#SubmitDDZF").click(function(){
+	  		/*点击订单作废按钮*/
+	  		if(confirm(msg_zl_965)){
+				$("#submitform").attr("action","CancelOrder.do").submit();
+	  		}
+	  	});
+
+	  	function HideWaitWindow(){
+	  		hideWaitingBox();
+	     }
+
+	  	$("#SubmitPDFTrip").click(function(){
+	  		/*点击下载并打印PDF行程单*/
+	  		$("#submitform").attr("action","PDFTripAction.do").submit();
+	  		setInterval(HideWaitWindow,3000);
+
+	  	});
+	  	$("#submitform").submit(function(){
+	  		var hasChoosePnr = 1;
+	  		if ($("#submitPnr").val() == 0){
+	  			if($.trim($("#submitPnr").val())=="" || $.trim($("#submitReservationID").val())==""){
+	  				hasChoosePnr = 0;
+		  		}
+	  		} else {
+	  			// 走CDE模式时无reservationID
+	  			if($.trim($("#submitPnr").val())==""){
+	  				hasChoosePnr = 0;
+		  		}
+	  		}
+	  		//检查是否选择了PNR
+	  		if(hasChoosePnr == 0){
+	  			alert(msg_zl_980);
+	  			return false;
+	  		}
+	  		return true;
+	  	});
+
+	  	$("a[name=showrefundinfo]").click(function(){
+			/*显示退票详情*/
+			var recno = $(this).parent().parent().attr("value");
+
+			$("#recno_id").val(recno);
+			$("#begin_id").val(1);
+			$("#length_id").val(10);
+			$("#queryType_id").attr("value","newquery");
+
+			openWindow("https://y8b2b.travelsky.com:443/y8b2b/"+"commonjsp/wait.jsp","refunddetail","height=800,width=1000,menubar=yes,scrollbars=yes,resizable=yes,status=yes");
+
+			$("#refundinfoqueryform").attr("target","refunddetail").submit();
+			return false;
+		});
+		$("a[name=showreerrfundinfo]").click(function(){
+			/*显示差错退款详情*/
+			var recno = $(this).parent().parent().attr("value");
+
+			$("#recno_ct").val(recno);
+			$("#begin_ct").val(1);
+			$("#length_ct").val(10);
+			$("#queryType_ct").attr("value","detailquery");
+
+			openWindow("https://y8b2b.travelsky.com:443/y8b2b/"+"commonjsp/wait.jsp","errrefunddetail","height=600,width=800,menubar=yes,scrollbars=yes,resizable=yes");
+
+			$("#errrefundinfoqueryform").attr("target","errrefunddetail").submit();
+			return false;
+		});
+
+		//去掉所有空格
+		function trimMid(s){
+			var   reg = /\s/g;
+			var  leftk = /^\s\s*/;
+			var rightk = /\s\s*$/;
+			var   strr = s.replace(reg,"").replace(leftk,"").replace(rightk,"");
+			return strr;
+		}
+
+		$(".modifyApi").click(function(){
+			$("#api-doc").attr("disabled", false);
+			$("#api-passport").attr("disabled", false);
+			$("#genderF").attr("disabled", false);
+			$("#genderM").attr("disabled", false);
+			$("#api-expireDate").attr("disabled", false);
+			$("#api-birthday").attr("disabled", false);
+			$("#api-country_input").attr("disabled", false);
+			$("#api-nationality_input").attr("disabled", false);
+			index=$(this).attr("value");
+			$(".pop-update").removeClass("hidden");
+			$("#api-psgname").text($("#psgname"+index).text());
+			$("#api-doc").attr("value",trimMid($("#docid"+index).text()));
+			$("#old-doc").text($("#docid"+index).text());
+			$("#api-passport").attr("value",trimMid($("#passport"+index).text()));
+			$("#old-passport").text($("#passport"+index).text());
+			$("#api-expireDate").attr("value",$("#expireDate"+index).text());
+			$("#old-expireDate").text($("#expireDate"+index).text());
+			$("#api-birthday").attr("value",$("#birthday"+index).text());
+			$("#old-birthday").text($("#birthday"+index).text());
+			$("#api-gender").attr("value",$("#gender"+index).val());
+			$("#old-gender").text($("#gender"+index).val());
+			$("#old-issueCountry").text($("#issueCountry"+index).val());
+			$("#old-nationality").text($("#nationality"+index).val());
+			if("M"==$("#api-gender").val()){
+				$("#genderM").click();
+			}
+			if("F"==$("#api-gender").val()){
+				$("#genderF").click();
+			}
+			if($("#gender"+index).val()==""){
+				$("#genderF").attr("disabled", true);
+				$("#genderM").attr("disabled", true);
+			}else{
+				if("M"==$("#api-gender").val()){
+					$("#genderM").click();
+				}
+				if("F"==$("#api-gender").val()){
+					$("#genderF").click();
+				}
+			}
+			if($("#docid"+index).text()==""){
+				$("#api-doc").attr("disabled", true);
+			}
+			if($("#passport"+index).text()==""){
+				$("#api-passport").attr("disabled", true);
+			}
+			if($("#expireDate"+index).text()==""){
+				$("#api-expireDate").attr("disabled", true);
+			}
+			if($("#birthday"+index).text()==""){
+				$("#api-birthday").attr("disabled", true);
+			}
+			if($("#issueCountry"+index).val()==""){
+				$("#api-country_input").attr("disabled", true);
+			}
+			if($("#nationality"+index).val()==""){
+				$("#api-nationality_input").attr("disabled", true);
+			}
+			$("#api-psgerRPH").attr("value",$("#psgerRPH"+index).val());
+			$("#api-psgerId").attr("value",$("#psgerId"+index).val());
+			$("#api-index").attr("value",index);
+			$("#api-country_input").attr("value",msg_jz_613);
+			$("#api-country_input").addClass("watermark");
+			$("#api-nationality_input").attr("value",msg_jz_613);
+			$("#api-nationality_input").addClass("watermark");
+			popMasklayer();
+		});
+
+		//取消升舱
+		$("#cancelChange,#cancelFltChange").click(function(){
+			if(confirm(msg_zl_1081)){
+				$("#cancelChangeForm").attr("action","CancelChange.do");
+				$("#cancelChangeForm").submit();
+			}
+		});
+
+		//选则旅客设置参数
+		$(":input[name=checkInChoose]").click(function(){
+			setCheckParameter($(this));
+		});
+		//值机
+		$("#btnCheckIn").click(function(){
+			if(checkInParameterVerify(checkInParameter)){
+				callCheckInPlatform(checkInParameter, "0");
+			}
+		});
+		//取消值机
+		$("#btnUnCheckIn").click(function(){
+			if(checkInParameterVerify(checkInParameter)){
+				callCheckInPlatform(checkInParameter, "1");
+			}
+		});
+
+		var countrys ={};
+		countrys.results =  [{id:'AD',zh_CN:'安道尔',querystr:'AD|安道尔|安道尔'},{id:'AE',zh_CN:'阿拉伯联合酋长国',querystr:'AE|阿拉伯联合酋长国|阿拉伯联合酋长国'},{id:'AF',zh_CN:'阿富汗',querystr:'AF|阿富汗|阿富汗'},{id:'AG',zh_CN:'安堤瓜及巴尔布达',querystr:'AG|安堤瓜及巴尔布达|安堤瓜及巴尔布达'},{id:'AL',zh_CN:'阿尔巴尼亚',querystr:'AL|阿尔巴尼亚|阿尔巴尼亚'},{id:'AM',zh_CN:'亚美尼亚',querystr:'AM|亚美尼亚|亚美尼亚'},{id:'AO',zh_CN:'安哥拉',querystr:'AO|安哥拉|安哥拉'},{id:'AR',zh_CN:'阿根廷',querystr:'AR|阿根廷|阿根廷'},{id:'AT',zh_CN:'奥地利',querystr:'AT|奥地利|奥地利'},{id:'AU',zh_CN:'澳大利亚',querystr:'AU|澳大利亚|澳大利亚'},{id:'AZ',zh_CN:'阿塞拜疆共和国',querystr:'AZ|阿塞拜疆共和国|阿塞拜疆共和国'},{id:'BA',zh_CN:'波士尼亚和黑塞哥维那',querystr:'BA|波士尼亚和黑塞哥维那|波士尼亚和黑塞哥维那'},{id:'BB',zh_CN:'巴巴多斯',querystr:'BB|巴巴多斯|巴巴多斯'},{id:'BD',zh_CN:'孟加拉',querystr:'BD|孟加拉|孟加拉'},{id:'BE',zh_CN:'比利时',querystr:'BE|比利时|比利时'},{id:'BF',zh_CN:'布基纳法索',querystr:'BF|布基纳法索|布基纳法索'},{id:'BG',zh_CN:'保加利亞',querystr:'BG|保加利亞|保加利亞'},{id:'BH',zh_CN:'巴林',querystr:'BH|巴林|巴林'},{id:'BI',zh_CN:'布隆迪',querystr:'BI|布隆迪|布隆迪'},{id:'BJ',zh_CN:'贝宁',querystr:'BJ|贝宁|贝宁'},{id:'BN',zh_CN:'汶莱达鲁萨兰国',querystr:'BN|汶莱达鲁萨兰国|汶莱达鲁萨兰国'},{id:'BO',zh_CN:'玻利维亚',querystr:'BO|玻利维亚|玻利维亚'},{id:'BR',zh_CN:'巴西',querystr:'BR|巴西|巴西'},{id:'BS',zh_CN:'巴哈马',querystr:'BS|巴哈马|巴哈马'},{id:'BT',zh_CN:'不丹',querystr:'BT|不丹|不丹'},{id:'BW',zh_CN:'博茨瓦納',querystr:'BW|博茨瓦納|博茨瓦納'},{id:'BY',zh_CN:'白俄罗斯',querystr:'BY|白俄罗斯|白俄罗斯'},{id:'BZ',zh_CN:'伯里兹',querystr:'BZ|伯里兹|伯里兹'},{id:'CA',zh_CN:'加拿大',querystr:'CA|加拿大|加拿大'},{id:'CF',zh_CN:'中非共和国',querystr:'CF|中非共和国|中非共和国'},{id:'CG',zh_CN:'刚果（布）',querystr:'CG|刚果|刚果（布）'},{id:'CH',zh_CN:'瑞士',querystr:'CH|瑞士|瑞士'},{id:'CI',zh_CN:'象牙海岸',querystr:'CI|象牙海岸|象牙海岸'},{id:'CK',zh_CN:'科克群岛',querystr:'CK|科克群岛|科克群岛'},{id:'CL',zh_CN:'智利',querystr:'CL|智利|智利'},{id:'CM',zh_CN:'喀麦隆',querystr:'CM|喀麦隆|喀麦隆'},{id:'CN',zh_CN:'中国',querystr:'CN|中国'},{id:'CO',zh_CN:'哥伦比亚',querystr:'CO|哥伦比亚|哥伦比亚'},{id:'CR',zh_CN:'哥斯达黎加',querystr:'CR|哥斯达黎加|哥斯达黎加'},{id:'CS',zh_CN:'塞尔维亚',querystr:'CS|塞尔维亚|塞尔维亚'},{id:'CU',zh_CN:'古巴共和国',querystr:'CU|古巴共和国|古巴共和国'},{id:'CV',zh_CN:'佛得角',querystr:'CV|佛得角|佛得角'},{id:'CY',zh_CN:'賽普勒斯',querystr:'CY|賽普勒斯|賽普勒斯'},{id:'CZ',zh_CN:'捷克共和国',querystr:'CZ|捷克共和国|捷克共和国'},{id:'DE',zh_CN:'德国',querystr:'DE|德国|德国'},{id:'DJ',zh_CN:'吉布',querystr:'DJ|吉布|吉布'},{id:'DK',zh_CN:'丹麦',querystr:'DK|丹麦|丹麦'},{id:'DM',zh_CN:'多明尼克',querystr:'DM|多明尼克|多明尼克'},{id:'DO',zh_CN:'多明尼加共和国',querystr:'DO|多明尼加共和国|多明尼加共和国'},{id:'DZ',zh_CN:'阿尔及尼亚',querystr:'DZ|阿尔及尼亚|阿尔及尼亚'},{id:'EC',zh_CN:'厄瓜多尔',querystr:'EC|厄瓜多尔|厄瓜多尔'},{id:'EE',zh_CN:'爱沙尼亚',querystr:'EE|爱沙尼亚|爱沙尼亚'},{id:'EG',zh_CN:'埃及',querystr:'EG|埃及|埃及'},{id:'ER',zh_CN:'厄立特里亚',querystr:'ER|厄立特里亚|厄立特里亚'},{id:'ES',zh_CN:'西班牙',querystr:'ES|西班牙|西班牙'},{id:'ET',zh_CN:'埃塞俄比亚',querystr:'ET|埃塞俄比亚|埃塞俄比亚'},{id:'FI',zh_CN:'芬兰',querystr:'FI|芬兰|芬兰'},{id:'FJ',zh_CN:'斐济',querystr:'FJ|斐济|斐济'},{id:'FK',zh_CN:'富克兰群岛',querystr:'FK|富克兰群岛|富克兰群岛'},{id:'FM',zh_CN:'密克罗尼西亚联邦',querystr:'FM|密克罗尼西亚联邦|密克罗尼西亚联邦'},{id:'FO',zh_CN:'法罗群岛',querystr:'FO|法罗群岛|法罗群岛'},{id:'FR',zh_CN:'法国',querystr:'FR|法国|法国'},{id:'GA',zh_CN:'加蓬',querystr:'GA|加蓬|加蓬'},{id:'GB',zh_CN:'英国',querystr:'GB|英国|英国'},{id:'GD',zh_CN:'格林纳达',querystr:'GD|格林纳达|格林纳达'},{id:'GE',zh_CN:'格鲁吉亚',querystr:'GE|格鲁吉亚|格鲁吉亚'},{id:'GF',zh_CN:'法属圭亚那',querystr:'GF|法属圭亚那|法属圭亚那'},{id:'GH',zh_CN:'加纳',querystr:'GH|加纳|加纳'},{id:'GL',zh_CN:'格林伍德',querystr:'GL|格林伍德|格林伍德'},{id:'GM',zh_CN:'冈比亚',querystr:'GM|冈比亚|冈比亚'},{id:'GN',zh_CN:'几内亚',querystr:'GN|几内亚|几内亚'},{id:'GQ',zh_CN:'赤道几內亚',querystr:'GQ|赤道几內亚|赤道几內亚'},{id:'GR',zh_CN:'希腊',querystr:'GR|希腊|希腊'},{id:'GT',zh_CN:'危地马拉',querystr:'GT|危地马拉|危地马拉'},{id:'GW',zh_CN:'几内亚比绍',querystr:'GW|几内亚比绍|几内亚比绍'},{id:'GY',zh_CN:'圭亚那',querystr:'GY|圭亚那|圭亚那'},{id:'HK',zh_CN:'中国香港',querystr:'HK|中国香港'},{id:'HN',zh_CN:'洪都拉斯',querystr:'HN|洪都拉斯|洪都拉斯'},{id:'HR',zh_CN:'克罗地亚',querystr:'HR|克罗地亚|克罗地亚'},{id:'HT',zh_CN:'海地',querystr:'HT|海地|海地'},{id:'HU',zh_CN:'匈牙利',querystr:'HU|匈牙利|匈牙利'},{id:'ID',zh_CN:'印尼',querystr:'ID|印尼|印尼'},{id:'IE',zh_CN:'爱尔兰',querystr:'IE|爱尔兰|爱尔兰'},{id:'IL',zh_CN:'以色列',querystr:'IL|以色列|以色列'},{id:'IN',zh_CN:'印度',querystr:'IN|印度|印度'},{id:'IQ',zh_CN:'伊拉克',querystr:'IQ|伊拉克|伊拉克'},{id:'IR',zh_CN:'伊朗',querystr:'IR|伊朗|伊朗'},{id:'IS',zh_CN:'冰岛',querystr:'IS|冰岛|冰岛'},{id:'IT',zh_CN:'意大利',querystr:'IT|意大利|意大利'},{id:'JM',zh_CN:'牙麦加',querystr:'JM|牙麦加|牙麦加'},{id:'JO',zh_CN:'約旦',querystr:'JO|約旦|約旦'},{id:'JP',zh_CN:'日本',querystr:'JP|日本|日本'},{id:'KE',zh_CN:'肯雅',querystr:'KE|肯雅|肯雅'},{id:'KG',zh_CN:'吉尔吉斯坦',querystr:'KG|吉尔吉斯坦|吉尔吉斯坦'},{id:'KH',zh_CN:'柬埔寨',querystr:'KH|柬埔寨|柬埔寨'},{id:'KM',zh_CN:'科摩罗',querystr:'KM|科摩罗|科摩罗'},{id:'KP',zh_CN:'朝鲜民主共和国',querystr:'KP|朝鲜民主共和国|朝鲜民主共和国'},{id:'KR',zh_CN:'韩国',querystr:'KR|韩国|韩国'},{id:'KW',zh_CN:'科威特',querystr:'KW|科威特|科威特'},{id:'KY',zh_CN:'佛得角',querystr:'KY|佛得角|佛得角'},{id:'KZ',zh_CN:'哈萨克斯坦',querystr:'KZ|哈萨克斯坦|哈萨克斯坦'},{id:'LA',zh_CN:'老挝',querystr:'LA|老挝|老挝'},{id:'LB',zh_CN:'黎巴嫩',querystr:'LB|黎巴嫩|黎巴嫩'},{id:'LC',zh_CN:'圣卢西亚',querystr:'LC|圣卢西亚|圣卢西亚'},{id:'LI',zh_CN:'列支敦士登',querystr:'LI|列支敦士登|列支敦士登'},{id:'LK',zh_CN:'斯里兰卡',querystr:'LK|斯里兰卡|斯里兰卡'},{id:'LR',zh_CN:'利比理亚',querystr:'LR|利比理亚|利比理亚'},{id:'LS',zh_CN:'莱索托',querystr:'LS|莱索托|莱索托'},{id:'LT',zh_CN:'立陶宛',querystr:'LT|立陶宛|立陶宛'},{id:'LU',zh_CN:'卢森堡',querystr:'LU|卢森堡|卢森堡'},{id:'LV',zh_CN:'拉脱维亚',querystr:'LV|拉脱维亚|拉脱维亚'},{id:'LY',zh_CN:'利比亚',querystr:'LY|利比亚|利比亚'},{id:'MA',zh_CN:'摩洛哥',querystr:'MA|摩洛哥|摩洛哥'},{id:'MC',zh_CN:'摩纳哥',querystr:'MC|摩纳哥|摩纳哥'},{id:'MD',zh_CN:'莫尔达瓦',querystr:'MD|莫尔达瓦|莫尔达瓦'},{id:'MG',zh_CN:'马达加斯加',querystr:'MG|马达加斯加|马达加斯加'},{id:'MH',zh_CN:'马绍尔群岛',querystr:'MH|马绍尔群岛|马绍尔群岛'},{id:'MK',zh_CN:'马其顿',querystr:'MK|马其顿|马其顿'},{id:'ML',zh_CN:'马里',querystr:'ML|马里|马里'},{id:'MM',zh_CN:'缅甸',querystr:'MM|缅甸|缅甸'},{id:'MN',zh_CN:'蒙古',querystr:'MN|蒙古|蒙古'},{id:'MO',zh_CN:'中国澳门',querystr:'MO|中国澳门'},{id:'MP',zh_CN:'北马利安纳群岛',querystr:'MP|北马利安纳群岛|北马利安纳群岛'},{id:'MQ',zh_CN:'马提尼克',querystr:'MQ|马提尼克|马提尼克'},{id:'MR',zh_CN:'矛利塔尼亚',querystr:'MR|矛利塔尼亚|矛利塔尼亚'},{id:'MT',zh_CN:'马尔它',querystr:'MT|马尔它|马尔它'},{id:'MU',zh_CN:'毛里求斯',querystr:'MU|毛里求斯|毛里求斯'},{id:'MV',zh_CN:'马尔代夫',querystr:'MV|马尔代夫|马尔代夫'},{id:'MW',zh_CN:'马拉维',querystr:'MW|马拉维|马拉维'},{id:'MX',zh_CN:'墨西哥',querystr:'MX|墨西哥|墨西哥'},{id:'MY',zh_CN:'马来西亚',querystr:'MY|马来西亚|马来西亚'},{id:'MZ',zh_CN:'莫桑比克',querystr:'MZ|莫桑比克|莫桑比克'},{id:'NA',zh_CN:'纳米比亚',querystr:'NA|纳米比亚|纳米比亚'},{id:'NE',zh_CN:'尼日尔',querystr:'NE|尼日尔|尼日尔'},{id:'NG',zh_CN:'尼日利亚',querystr:'NG|尼日利亚|尼日利亚'},{id:'NI',zh_CN:'尼加拉瓜',querystr:'NI|尼加拉瓜|尼加拉瓜'},{id:'NL',zh_CN:'荷兰',querystr:'NL|荷兰|荷兰'},{id:'NO',zh_CN:'挪威',querystr:'NO|挪威|挪威'},{id:'NP',zh_CN:'尼泊尔',querystr:'NP|尼泊尔|尼泊尔'},{id:'NR',zh_CN:'瑙鲁',querystr:'NR|瑙鲁|瑙鲁'},{id:'NU',zh_CN:'纽埃',querystr:'NU|纽埃|纽埃'},{id:'NZ',zh_CN:'新西兰',querystr:'NZ|新西兰|新西兰'},{id:'OM',zh_CN:'阿曼',querystr:'OM|阿曼|阿曼'},{id:'PA',zh_CN:'巴拿马',querystr:'PA|巴拿马|巴拿马'},{id:'PE',zh_CN:'秘鲁',querystr:'PE|秘鲁|秘鲁'},{id:'PF',zh_CN:'法属玻力尼西亚',querystr:'PF|法属玻力尼西亚|法属玻力尼西亚'},{id:'PG',zh_CN:'巴布新几内亚',querystr:'PG|巴布新几内亚|巴布新几内亚'},{id:'PH',zh_CN:'菲律宾',querystr:'PH|菲律宾|菲律宾'},{id:'PK',zh_CN:'巴基斯坦',querystr:'PK|巴基斯坦|巴基斯坦'},{id:'PL',zh_CN:'波兰',querystr:'PL|波兰|波兰'},{id:'PM',zh_CN:'圣皮埃尔和密克隆',querystr:'PM|圣皮埃尔和密克隆|圣皮埃尔和密克隆'},{id:'PN',zh_CN:'皮特凯恩群岛',querystr:'PN|皮特凯恩群岛|皮特凯恩群岛'},{id:'PS',zh_CN:'巴勒斯坦',querystr:'PS|巴勒斯坦|巴勒斯坦'},{id:'PT',zh_CN:'葡萄牙',querystr:'PT|葡萄牙|葡萄牙'},{id:'PW',zh_CN:'帕劳',querystr:'PW|帕劳|帕劳'},{id:'PY',zh_CN:'巴拉圭',querystr:'PY|巴拉圭|巴拉圭'},{id:'QA',zh_CN:'卡塔尔',querystr:'QA|卡塔尔|卡塔尔'},{id:'RO',zh_CN:'罗马尼亚',querystr:'RO|罗马尼亚|罗马尼亚'},{id:'RU',zh_CN:'俄罗斯',querystr:'RU|俄罗斯|俄罗斯'},{id:'RW',zh_CN:'卢旺达',querystr:'RW|卢旺达|卢旺达'},{id:'SA',zh_CN:'沙特阿拉伯',querystr:'SA|沙特阿拉伯|沙特阿拉伯'},{id:'SB',zh_CN:'所罗门群岛',querystr:'SB|所罗门群岛|所罗门群岛'},{id:'SC',zh_CN:'塞舌耳',querystr:'SC|塞舌耳|塞舌耳'},{id:'SD',zh_CN:'苏丹',querystr:'SD|苏丹|苏丹'},{id:'SE',zh_CN:'瑞典',querystr:'SE|瑞典|瑞典'},{id:'SG',zh_CN:'新加坡',querystr:'SG|新加坡|新加坡'},{id:'SI',zh_CN:'斯洛文尼亚',querystr:'SI|斯洛文尼亚|斯洛文尼亚'},{id:'SK',zh_CN:'斯洛伐克共和国',querystr:'SK|斯洛伐克共和国|斯洛伐克共和国'},{id:'SL',zh_CN:'塞拉里昂',querystr:'SL|塞拉里昂|塞拉里昂'},{id:'SM',zh_CN:'圣马力诺',querystr:'SM|圣马力诺|圣马力诺'},{id:'SN',zh_CN:'塞内加尔',querystr:'SN|塞内加尔|塞内加尔'},{id:'SO',zh_CN:'索马里',querystr:'SO|索马里|索马里'},{id:'SR',zh_CN:'苏里南',querystr:'SR|苏里南|苏里南'},{id:'ST',zh_CN:'圣多美及普林西比岛',querystr:'ST|圣多美及普林西比岛|圣多美及普林西比岛'},{id:'SV',zh_CN:'萨尔瓦多',querystr:'SV|萨尔瓦多|萨尔瓦多'},{id:'SY',zh_CN:'敘利亚',querystr:'SY|敘利亚|敘利亚'},{id:'SZ',zh_CN:'斯威士兰',querystr:'SZ|斯威士兰|斯威士兰'},{id:'TD',zh_CN:'乍得',querystr:'TD|乍得|乍得'},{id:'TG',zh_CN:'多哥',querystr:'TG|多哥|多哥'},{id:'TH',zh_CN:'泰国',querystr:'TH|泰国|泰国'},{id:'TJ',zh_CN:'塔吉克斯坦',querystr:'TJ|塔吉克斯坦|塔吉克斯坦'},{id:'TL',zh_CN:'东帝汶',querystr:'TL|东帝汶|东帝汶'},{id:'TM',zh_CN:'土库曼斯坦',querystr:'TM|土库曼斯坦|土库曼斯坦'},{id:'TN',zh_CN:'突尼斯',querystr:'TN|突尼斯|突尼斯'},{id:'TO',zh_CN:'汤加',querystr:'TO|汤加|汤加'},{id:'TR',zh_CN:'土耳其',querystr:'TR|土耳其|土耳其'},{id:'TT',zh_CN:'特立尼达和多巴哥',querystr:'TT|特立尼达和多巴哥|特立尼达和多巴哥'},{id:'TV',zh_CN:'图瓦卢',querystr:'TV|图瓦卢|图瓦卢'},{id:'TW',zh_CN:'中国台湾',querystr:'TW|中国台湾'},{id:'TZ',zh_CN:'坦桑尼亚',querystr:'TZ|坦桑尼亚|坦桑尼亚'},{id:'UA',zh_CN:'乌克兰',querystr:'UA|乌克兰|乌克兰'},{id:'UG',zh_CN:'乌干达',querystr:'UG|乌干达|乌干达'},{id:'US',zh_CN:'美国',querystr:'US|美国|美国'},{id:'UY',zh_CN:'乌拉圭',querystr:'UY|乌拉圭|乌拉圭'},{id:'UZ',zh_CN:'乌兹别可斯坦',querystr:'UZ|乌兹别可斯坦|乌兹别可斯坦'},{id:'VA',zh_CN:'梵蒂冈',querystr:'VA|梵蒂冈|梵蒂冈'},{id:'VE',zh_CN:'委内瑞拉',querystr:'VE|委内瑞拉|委内瑞拉'},{id:'VN',zh_CN:'越南',querystr:'VN|越南|越南'},{id:'VU',zh_CN:'瓦努阿图',querystr:'VU|瓦努阿图|瓦努阿图'},{id:'WF',zh_CN:'瓦利斯和富图纳群岛',querystr:'WF|瓦利斯和富图纳群岛|瓦利斯和富图纳群岛'},{id:'WS',zh_CN:'美属萨摩亚',querystr:'WS|美属萨摩亚|美属萨摩亚'},{id:'YD',zh_CN:'也门民主人民共和國',querystr:'YD|也门民主人民共和國|也门民主人民共和國'},{id:'YE',zh_CN:'也门',querystr:'YE|也门|也门'},{id:'ZA',zh_CN:'南非',querystr:'ZA|南非|南非'},{id:'ZM',zh_CN:'尚比亚',querystr:'ZM|尚比亚|尚比亚'},{id:'ZR',zh_CN:'扎伊尔',querystr:'ZR|扎伊尔|扎伊尔'},{id:'ZW',zh_CN:'辛巴威',querystr:'ZW|辛巴威|辛巴威'}];
+		countrys.total = countrys.results.length;
+		$("#api-country").flexbox(countrys,
+				{
+					displayValue:cityLanguage,
+					hiddenValue:'id',
+					resultTemplate:'{'+cityLanguage+'}',
+					queryStr:'querystr',
+					paging:false,
+					noResultsText:msg_jz_609,
+					maxCacheBytes:0,
+					maxVisibleRows:10,
+					width:164,
+					watermark:msg_jz_613,
+					onSelect:function(){
+					$("#api-country_input").removeClass("watermark");
+					}
+				}
+			);
+		$("#api-nationality").flexbox(countrys,
+				{
+						displayValue:cityLanguage,
+						hiddenValue:'id',
+						resultTemplate:'{'+cityLanguage+'}',
+						queryStr:'querystr',
+						paging:false,
+						noResultsText:msg_jz_609,
+						maxCacheBytes:0,
+						maxVisibleRows:10,
+						width:164,
+						watermark:msg_jz_613,
+						onSelect:function(){
+						$("#api-nationality_input").removeClass("watermark");
+					}
+				}
+			);
+		$("#api-country").find(".content").addClass("content_nobg");
+		$("#api-nationality").find(".content").addClass("content_nobg");
+		$("#api-country").find("#api-country_input").css("float", "none").css("margin-left","-9px");
+		$("#api-country").find("#api-country_ctr").css("top", "").css("left", "").css("width","165px");
+		$("#api-nationality").find("#api-nationality_input").css("float", "none").css("margin-left","-9px");
+        $("#api-nationality").find("#api-nationality_ctr").css("top", "").css("left", "").css("width","165px");
+
+		//emd相关
+
+
+		$("._"+$(":radio:eq(0)").val()).show();
+
+		$('.radiogroup').bind('click',function(){
+			$('.emdSltCKBox').removeAttr("checked");
+			$('#emdtable tr').not('tr:first').hide();
+			var pnrNo = $(this).val();
+			if(emdCanRefund === 'true'
+					|| emdCanOutTkt === 'true'
+					|| emdCanErrRefund === 'true'){
+				var emdrecord = $("._"+pnrNo);
+				// EMD已退票计数
+				var refundNum = 0;
+				// EMD已差错退款计数
+				var errRefundNum = 0;
+				// EMD已出票计数
+				var issuedNum = 0;
+				emdrecord.each(function(){
+					var recordStatus = $(this).attr('data');
+					if(recordStatus === '5'){
+						refundNum ++;
+					}
+					if (recordStatus === '4') {
+						errRefundNum ++;
+					}
+					if (recordStatus === '3') {
+						issuedNum ++;
+					}
+				});
+				// 控制EMD退票按钮显示
+				if(emdrecord.length == refundNum){
+					$('#refundEmdBtn').hide();
+					$('#refundSubmitEmdBtn').hide();
+					$('#refundReturnEmdBtn').hide();
+				}else{
+					$('#refundEmdBtn').show();
+					$('#refundSubmitEmdBtn').hide();
+					$('#refundReturnEmdBtn').hide();
+				}
+				// 控制EMD差错退款、出票按钮显示
+				if(emdrecord.length == errRefundNum){
+					// 全是差退退款状态情况
+					// 不显示EMD差退退款按钮
+					$('#errRefundBtn').hide();
+					$('#errRefundSubmitBtn').hide();
+					$('#errRefundReturnBtn').hide();
+					// 不显示EMD出票按钮
+					$('#outEmdTicketBtn').hide();
+				} else if (emdrecord.length == issuedNum) {
+					// 全是出票完成状态情况
+					// 不显示EMD差退退款按钮
+					$('#errRefundBtn').hide();
+					$('#errRefundSubmitBtn').hide();
+					$('#errRefundReturnBtn').hide();
+					// 不显示EMD出票按钮
+					$('#outEmdTicketBtn').hide();
+				} else {
+					//其他状态情况
+					// 显示EMD差退退款按钮
+					$('#errRefundBtn').show();
+					$('#errRefundSubmitBtn').hide();
+					$('#errRefundReturnBtn').hide();
+					// 显示EMD出票按钮
+					$('#outEmdTicketBtn').show()
+				}
+			}
+			$("._"+pnrNo).show();
+		});
+
+		$(".radiogroup:first").trigger('click');
+
+		$('#cannelEmdBtn,#refundEmdBtn').bind('click', function(){
+			$(this).hide();
+			$('#submitEmdBtn').show();
+			$('#returnEmdBtn').show();
+			$('#refundSubmitEmdBtn').show();
+			$('#refundReturnEmdBtn').show();
+			$('#errRefundSubmitBtn').show();
+			$('#errRefundReturnBtn').show();
+			$('.emdckboxfirstth').show();
+			$('.emdbox').show();
+			$('.errRefundEmdbox').hide();
+		});
+
+		$('#errRefundBtn').bind('click', function(){
+			$(this).hide();
+			//当点EMD差退退款按钮时 需隐藏EMD出票按钮
+			$('#outEmdTicketBtn').hide();
+			$('#submitEmdBtn').show();
+			$('#returnEmdBtn').show();
+			$('#refundSubmitEmdBtn').show();
+			$('#refundReturnEmdBtn').show();
+			$('#errRefundSubmitBtn').show();
+			$('#errRefundReturnBtn').show();
+			$('.emdckboxfirstth').show();
+			$('.emdbox').hide();
+			$('.errRefundEmdbox').show();
+		});
+
+		$('#returnEmdBtn,#refundReturnEmdBtn,#errRefundReturnBtn').bind('click', function(){
+			$(this).hide();
+			$('#submitEmdBtn').hide();
+			$('#cannelEmdBtn').show();
+			$('#refundSubmitEmdBtn').hide();
+			$('#refundEmdBtn').show();
+			$('#errRefundSubmitBtn').hide();
+			$('#errRefundBtn').show();
+			//当点EMD差退退款取消按钮时 需显示EMD出票按钮
+			$('#outEmdTicketBtn').show();
+			$('.emdckboxfirstth').hide();
+			$('.emdSltCKBox').removeAttr("checked");
+		});
+
+		$('#submitEmdBtn').bind('click', function(){
+			var emdList = '';
+			var arr = new Array();
+		    $('.emdSltCKBox').each(function(index){
+		    	if($(this).attr('checked')){
+		    		emdList += $(this).val()+"#";
+		    		arr.push($(this).val());
+		    	}
+		    });
+		    if(emdList === ''){
+		    	alert(msg_emd_tips);
+		    	return false;
+		    }
+		    if(confirm(msg_emd_confirm)){
+			    var url = "cancelEmdBook.do";
+			    var params = {
+			    	r:Math.random(),
+			    	recNo:recno,
+			    	emdNolist:emdList
+			    };
+			    var _callBack = function(data,status,xhr){
+			    	var code = data.resultType;
+			    	if(code !== undefined && code === '200'){
+			    		alert(msg_emd_cancel_success);
+			    		var btnValid = data.result.split(",")[0];
+			    		var payAmount = data.result.split(",")[1];
+			    		if(btnValid == 'false'){
+			    			$('#submitEmdBtn').hide();
+							$('#cannelEmdBtn').hide();
+							$('#returnEmdBtn').hide();
+			    		}else{
+				    		$('#submitEmdBtn').hide();
+							$('#cannelEmdBtn').hide();
+			    		}
+						$.each(arr, function(){
+							$('#chk_'+this).removeAttr("checked").attr('disabled', 'disabled').hide();
+							//状态为已取消
+							$('#emd_item_'+this).attr("status",6);
+							$('#emd_item_'+this).html(msg_emd_cancel);
+					    });
+						$('#orderamount').text(payAmount);
+			    	}else{
+			    		alert(data.errorMsg);
+			    	}
+			    };
+			    Ajax.post(url, params, _callBack);
+		    }
+		});
+
+		$('#refundSubmitEmdBtn').bind('click', function(){
+			var pnrNo = '';
+			$('.radiogroup').each(function(){
+				if(this.checked === true){
+					pnrNo = $(this).val();
+				}
+			});
+			var pnrId = '';
+			var refundNoStr = ''; //格式： emsId1:bgNo1%emsId2:bgNo2
+			var emsId = '';
+			var bgNo = '';
+			var cklist=$('[data-role="refund-item"]:checked');
+			cklist.each(function(){
+				if(pnrId.length>0){
+		    		pnrId = pnrId + "%";
+		    	}
+
+		    	if($(this).attr('checked')){
+		    		/** 排除上次退票请求成功的记录 */
+		    		var disabledInput = $(this).attr("disabled");
+		    		if(''!== disabledInput && !disabledInput){
+		    			emsId = $(this).next().val();
+			    		bgNo = $(this).val();
+			    		pnrId = $(this).parent().parent().attr('id');
+		    		}
+		    	}
+
+		    	if(''!== emsId&&''!== bgNo){
+		    		refundNoStr=refundNoStr+(emsId+":"+bgNo);
+		    	}
+
+		    	if(refundNoStr.length>0){
+		    		refundNoStr = refundNoStr + "%";
+		    	}
+		    });
+
+		    if(refundNoStr === ''){
+		    	alert(msg_emd_tips);
+		    	return false;
+		    }
+
+		    $("#refundNoStr").val(refundNoStr);
+		    $("#ems_recNo").val(recno);
+		    $("#pnrId").val(pnrId);
+
+		    if(confirm(msg_emd_refund_confirm)){
+		    	var url = "emsRefund.do";
+			    var params = {
+			    	refundNoStr:refundNoStr,
+			    	recNo:recno,
+			    	pnrNo:pnrNo
+			    };
+
+			    var _callBack = function(data,status,xhr){
+			    	hideWBox();
+			    	data= eval('(' + data + ')');
+			    	var code = data.resultType;
+			    	if(code !== undefined && code === '200'){
+			    		if(data.errorNo !== '' && data.errorNo !== null && data.errorNo !== undefined){
+			    			alert(msg_emd_refund_message
+				    				  +"\n errorNo:"
+				    				  +data.errorNo);
+			    		}else{
+			    			alert(msg_emd_refund_success);
+			    		}
+
+			    		var pnrIdArr = new Array();
+			    		pnrIdArr = $("#pnrId").val().split('%');
+			    		for(var i=0;i<pnrIdArr.length;i++){
+			    			$('#'+pnrIdArr[i]).attr('data','5');
+			    		}
+
+			    		if(data.result == 'false'){
+			    			$('#refundSubmitEmdBtn').hide();
+							$('#refundEmdBtn').hide();
+							$('#refundReturnEmdBtn').hide();
+			    		}else{
+				    		$('#refundSubmitEmdBtn').hide();
+							$('#refundReturnEmdBtn').hide();
+							$('#refundEmdBtn').show();
+			    			var emdrecords = $("._"+$('.radiogroup:checked').val());
+							var refundNum = 0;
+							emdrecords.each(function(){
+								var recordStatus = $(this).attr('data');
+								if(recordStatus === '5'){
+									refundNum ++;
+								}
+							});
+							if(emdrecords.length == refundNum){
+								$('#refundEmdBtn').hide();
+							}
+			    		}
+			    		cklist.each(function(){
+			    			$(this).parent().parent().children('td:last').prev().text(msg_emd_refund);
+			    			$(this).attr("disabled", true);
+			    		});
+			    	}else{
+			    		alert(msg_emd_refund_fail
+			    				+"\nErrorMessage："+data.errorMsg);
+			    	}
+			    };
+			    $.post(url,params,_callBack);
+				showWBox();
+		    }
+		});
+
+		$('#outEmdTicketBtn').bind('click',function(){
+			$('#emdOutTicketRecNo').val(recno);
+			$('#outEmdTicketFrom').submit();
+		});
+
+		$('#errRefundSubmitBtn').bind('click', function(){
+			var pnrNo = '';
+			$('.radiogroup').each(function(){
+				if(this.checked === true){
+					pnrNo = $(this).val();
+				}
+			});
+			var pnrId = '';
+			var refundNoStr = ''; //格式： emsId1:bgNo1%emsId2:bgNo2
+			var emsId = '';
+			var bgNo = '';
+			var cklist=$('[data-role="refund-item"]:checked');
+			cklist.each(function(){
+				if(pnrId.length>0){
+		    		pnrId = pnrId + "%";
+		    	}
+
+		    	if($(this).attr('checked')){
+		    		/** 排除上次差退请求成功的记录 */
+		    		var disabledInput = $(this).attr("disabled");
+		    		if(''!== disabledInput && !disabledInput){
+		    			emsId = $(this).next().val();
+			    		bgNo = $(this).val();
+			    		pnrId = $(this).parent().parent().attr('id');
+		    		}
+		    	}
+
+		    	if(''!== emsId&&''!== bgNo){
+		    		refundNoStr=refundNoStr+(emsId+":"+bgNo);
+		    	}
+
+		    	if(refundNoStr.length>0){
+		    		refundNoStr = refundNoStr + "%";
+		    	}
+		    });
+
+		    if(refundNoStr === ''){
+		    	alert(msg_emd_tips);
+		    	return false;
+		    }
+
+		    $("#errRefundNoStr").val(refundNoStr);
+		    $("#ems_No").val(recno);
+		    $("#errPnrId").val(pnrId);
+		    $("#ems_pnrNo").val(pnrNo);
+
+		    $('#emsErrRefundForm').submit();
+		});
+
+	});//end $(document).ready();
+
+	/**
+	*通过HTTP post 请求网上值机平台，传递相关参数
+	*/
+	function callCheckInPlatform(paraObj, checkType){
+
+		var checkInIdType="1";//凭证类型，默认票号(值机 0:身份证，1：票号，2：护照)
+		var checkInIdNo = paraObj.tktNumber;//票号
+		var tmpIdType = "1 票号";
+		if(currentLanguage == "en_US"){
+			tmpIdType = "1 Ticket number";
+		}
+		if(paraObj.tktSize > 1){
+			if(paraObj.idType="0"){//身份证
+				checkInIdType = "0";
+				if(currentLanguage == "en_US"){
+					tmpIdType = "0 ID Card";
+				}else{
+					tmpIdType = "0 身份证";
+				}
+			}else if(paraObj.idType="1"){//护照
+				checkInIdType = "2";
+				if(currentLanguage == "en_US"){
+					tmpIdType = "2 Passport";
+				}else{
+					tmpIdType = "2 护照";
+				}
+			}
+			checkInIdNo = paraObj.idNo;
+		}
+		paraObj.idTypeStr = tmpIdType;
+
+		//将凭证号中的-去掉
+		checkInIdNo = checkInIdNo.replace("-","");
+		//拆分值机请求URL配置 http://202.106.139.5/webcki/checkCuss.do?orgId=3UAIR
+		var urlArry = paraObj.webCkiUrl.split("?");
+
+		//如果是选证件类型，那么就不检查票面状态
+		if(checkInIdType=="0" || checkInIdType=="2"){
+			checkType = "2";
+		}
+			//AJAX请求转换中文为GBK编码
+			$.post("checkTktStatus.do",{ticketNo:checkInIdNo,//凭证号（可为票号、身份证、护照）
+				doajax:'yes',
+				checkType:checkType, //0值机;1取消值机
+				requestURL:urlArry[0],//http://202.106.139.5/webcki/checkCuss.do
+				passengerName:paraObj.passengerName,//旅客姓名
+				idType:tmpIdType,//证件类型
+				depCityCode:paraObj.depCityCode,//起飞城市三字码
+				orderType:ordertype
+			},function(data){
+				var result = eval('(' + data + ')');
+				if(typeof(result.error)!='undefined'){
+					 alert(result.error);//弹出提示信息
+				 }else{
+					 var reqUrl = result.requestURL+"?passengerName="+result.passengerName+
+							      "&idType="+result.idType+"&idNo="+checkInIdNo+
+							      "&mobileNo="+paraObj.mobileNo+"&depCity="+result.depCityCode+
+							      "&depCityCode="+result.depCityCode+"&"+urlArry[1]+ //urlArry[1] = orgId=3UAIR
+							      "&airlineCode="+paraObj.airlineCode+"&language="+paraObj.language+"&userID="+paraObj.userID;
+					 //window.open(reqUrl,'','height=800,width=900,scrollbars=yes,status=yes');
+					 jumpToCheckIn(reqUrl);
+				 }
+			});
+	};
+
+	/**
+	 * 跳转值机平台，消除window.open丢失refer问题
+	 */
+	function jumpToCheckIn(requestUrl){
+	    	if($.browser.msie){
+	    		var targetWndName = "checkInWindow";
+	    		window.open('', targetWndName ,'height=800,width=900,scrollbars=yes,status=yes');
+	    		var link = document.getElementById("checklink");
+	    		link.target = targetWndName;
+	    		link.href = requestUrl;
+	    		link.click();
+	    	}else{
+	    		window.open(requestUrl,'','height=800,width=900,scrollbars=yes,status=yes');
+	    	}
+	 };
+
+	/**
+	*设置值机请求所需要的参数
+	*/
+	function setCheckParameter(obj){
+		checkInParameter.passengerName = obj.parent().find("[name='psgName']").val();
+		checkInParameter.idType = obj.parent().find("[name='docType']").val();
+		checkInParameter.idNo = obj.parent().find("[name='docNo']").val();
+		checkInParameter.depCity = obj.parent().find("[name='departureCode']").val();
+		checkInParameter.depCityCode = obj.parent().find("[name='departureCode']").val();
+		checkInParameter.language = getCheckInLanType(currentLanguage);
+		checkInParameter.tktStatus =  obj.parent().find("[name='tktStatus']").val();
+		checkInParameter.tktNumber =  obj.parent().find("[name='tktNumber']").val();
+		checkInParameter.tktSize =  obj.parent().find("[name='tktSize']").val();
+		checkInParameter.mobileNo = $("#mobileNo").val();
+	};
+
+	/**
+	*值机参数校验
+	*/
+	function checkInParameterVerify(paraObj){
+		var flag = false;
+		$("input:radio[name='checkInChoose']").each(function(index){
+			if($(this).attr("checked") == true){flag = true;}
+	    });
+		if(!flag){
+			alert(msg_jz_252);
+			return false;
+		}
+		paraObj.mobileNo = $("#mobileNo").val();
+		if(isNull(checkInParameter.tktNumber)){
+			alert(msg_jz_253);
+			return false;
+		}
+		if(isNull(paraObj.passengerName)){
+			alert(msg_jz_87);
+			return false;
+		}
+		if(isNull(paraObj.idNo)){
+			alert(msg_jz_93);
+			return false;
+		}
+		if(!testMobile(paraObj.mobileNo)){
+			alert(frerrmsg6);
+			return false;
+		}
+		if(isNull(paraObj.depCityCode)||isNull(paraObj.depCity)){
+			alert(msg_jz_104);
+			return false;
+		}
+		return true;
+	};
+
+	/**
+	* 获取值机所需要的语言类型，需要根据平台进行转换
+	* 值机平台：CN：简体；TW：繁体；EN：英文；非必须，缺省为CN
+	*/
+	function getCheckInLanType(lanType){
+		switch(lanType){
+		case "zh_CN":
+			return "CN";
+			break;
+		case "zh_TW":
+			return "TW";
+			break;
+		case "en_US":
+			return "EN";
+			break;
+		default:
+			return "CN";
+		    break;
+	    }
+	};
+
+	function choosepnr(ebrno,pnrno,status,createreason,payamount,orderPnrId){
+  		/*点击radio触发的事件*/
+  		pnrno = pnrno.toUpperCase();
+  		$("#pnrbtn").find(":input").hide();	//隐藏PNR相关的按钮
+  		$(".defaulthide").hide();	//隐藏所有PNR的旅客和航段信息
+ 		var pnrtr = $("."+pnrno+orderPnrId).show();		//显示对应PNR的
+  		$(".submitResID").val(ebrno);	//设置form的ReservationID值
+  		$(".submitpnr").val(pnrno);	//设置form的pnrno值
+  		$("#bpnr").val(pnrno);
+  		$("#bPnrNo").val(pnrno);
+  		$(".submitOrderPnrId").val(orderPnrId);
+
+  		/**国际升舱，相关菜单屏蔽 add by shl*/
+  		var isInterFltChange = $("#isInterFltChange").val();
+  		if(createreason =='3' && isInterFltChange == 'true'){
+  			$(".isInterChange").hide();
+  		}else{
+  			$(".isInterChange").show();
+  		}
+
+  		/**隐藏网上值机选择栏和值机按钮 jianzli add 20130305*/
+  		$(".choosePsgCheckIn").hide();
+
+  		if(status !='1'){
+  			$("#pnrpay").hide();
+  		}
+        if(createreason === '3' && status === '2' && payamount === '0.0'){
+            $("#cancelFltChange").show();
+        }
+  		//只有pnr为出票完成或升舱换开时才显示票号
+  		if(status ==3||status ==8){
+  			$(".tktdetail").show();
+  			$(".choosePsgCheckIn").show();//显示值机选择栏和值机按钮  jianzli add 20130305
+  		}else{
+  			$(".tktdetail").hide();
+  		}
+  		if(createreason != '3'){
+  			$("#qxsc").hide();
+  		}
+  		if(createreason == '3'){
+  			$("#qxsc").show();
+  		}
+  		var pnrstatus = $("#"+pnrno+"").val();
+
+  		/**改升退票开关*/
+  		if(status == '3'){
+  		$("#sctk").show();
+  	/**		if(pnrstatus != '1'){//是升舱为1，否则为0
+  				$("#sctk").show();
+  			}
+  		}else{
+  			$("#sctk").hide();*/
+  		}
+  		if(orderstatus=='3' && status =='1'){
+  			//等待支付状态，显示PNR的支付按钮
+			$("#pnrpay").show();
+		}else if(orderstatus == '0' && status =='0'){
+			$("#SubmitZJRK").show();
+			if(isGrp == commonGrp){
+				$("#SubmitLKXXSR").show();
+				$("#SubmitTDYJ").show();
+			}
+		}else if(status =='2'){
+			//等待出票状态，显示出票按钮
+			$("#SubmitCP").show();
+			$("#SubmitCCTK").show();
+		}else if(status =='3'){
+			//出票完成状态，显示改期和退票按钮
+			if(isGrp != commonGrp || grpchange){
+				$("#SubmitGQ").show();
+			}
+			$("#SubmitTP").show();
+			$("#SubmitDDGQJG").show();
+			$("#SubmitSendEmail").show();
+			$("#SubmitPDFTrip").show();
+		}else if(orderstatus == '10'){
+			if(isGrp == commonGrp){
+				$("#SubmitTDYJQX").show();
+				$("#SubmitLKXXSR").show();
+			}
+			if(isInterFitBargain  && isGrp!=commonGrp){//国际散客议价取消 fix jianzli add && !isGrp
+				$("#SubmitSKYJQX").show();
+			}
+		}else if(orderstatus == '11'){//
+			if(isGrp == commonGrp){
+				$("#SubmitLTDYJRK").show();
+				if(!pnrAfterSecondAudit){
+				   $("#SubmitTDYJQX").show();
+				}
+				$("#SubmitLKXXSR").show();
+			}
+			if(isInterFitBargain  && isGrp!=commonGrp){//国际散客议价入库 fix jianli add && !isGrp
+				$("#SubmitSKYJRK").show();
+				$("#SubmitSKYJQX").show();//国际散客 等待议价入库 可以取消议价 jianzli add
+			}
+		}else if(status =='6'){
+			$("#SubmitCCTK").show();
+		}else if(orderstatus == '4'){//订单作废并且二审拒绝，打开议价重提按钮 && bargainstatus == '21'
+			if(isGrp == commonGrp){
+				$("#SubmitYJCT").show();
+			}
+		}else if(orderstatus == '-'){//MF 订单 未议价 zhuguojing add
+			//作废
+			$("#SubmitDDZF").show();
+			if(isGrp == commonGrp){
+				//团队议价
+				$("#SubmitTDYJ").show();
+				//旅客信息输入
+				$("#SubmitLKXXSR").show();
+			}
+		}
+
+		for(var i=0;i<pnrjson.length;i++){
+		try{
+			if(pnrjson[i].pnr==pnrno){
+				if(pnrjson[i].adt>0){
+					pnrtr.find("span[name=adtprice]").show().next().hide();
+				}else{
+					pnrtr.find("span[name=adtprice]").hide().next().show();
+				}
+				if(pnrjson[i].gm>0){
+					pnrtr.find("span[name=gmprice]").show().next().hide();
+				}else{
+					pnrtr.find("span[name=gmprice]").hide().next().show();
+				}
+				if(pnrjson[i].jc>0){
+					pnrtr.find("span[name=jcprice]").show().next().hide();
+				}else{
+					pnrtr.find("span[name=jcprice]").hide().next().show();
+				}
+				if(pnrjson[i].chd>0){
+					pnrtr.find("span[name=chdprice]").show().next().hide();
+				}else{
+					pnrtr.find("span[name=chdprice]").hide().next().show();
+				}
+				if(pnrjson[i].inf>0){
+					pnrtr.find("span[name=infprice]").show().next().hide();
+				}else{
+					pnrtr.find("span[name=infprice]").hide().next().show();
+				}
+			}
+		}catch(e){
+			alert(e);
+		}
+		}
+		/**当选中一个PNR时，清空旅客选择 jianzli add 20130301*/
+		$("input:radio[name='checkInChoose']").each(function(index){
+		   if($(this).attr("checked") == true){$(this).attr("checked",false);}
+        });
+
+      return false;
+
+  	}
+
+  	function querydetail(str){
+  		$("#changesegid").attr("value",str);
+		openWindow("https://y8b2b.travelsky.com:443/y8b2b/"+"commonjsp/wait.jsp","newwaitwindow","height=768,width=1024,resizable=yes");
+		$("#querydetailform").attr("target","newwaitwindow").submit();
+  		return false;
+  	}
+
+  	/**保险详情*/
+  	function queryInsOrderDetail(str){
+//   		var insOrderId = $("#insId").val();
+  		$("#insOrderId").attr("value",str);
+  		openWindow("https://y8b2b.travelsky.com:443/y8b2b/"+"commonjsp/wait.jsp","newinswaitwindow","height=768,width=1024,resizable=yes");
+  		$("#queryInsOrderDetailForm").attr("target","newinswaitwindow").submit();
+  		return false;
+  	}
+
+  	function grpdetail(){
+  		openWindow("https://y8b2b.travelsky.com:443/y8b2b/"+"commonjsp/wait.jsp","grpdetailwindow","height=768,width=1024,resizable=yes");
+		$("#submitform").attr("action","Grpdetail.do").attr("target","grpdetailwindow").submit();
+  		return false;
+  	}
+
+  	/*点击pnr触发的事件*/
+  	/*显示PNR-RT*/
+	$(".pnrdetail").click(function(){
+		$("#pnrno_rt").val($(this).attr("pnrno"));
+		$("#queryType_rt").val("RT");
+		$("#publicKey").val($("#publicKey_"+$("#pnrno_rt").val()).val());
+		$("#pnrSysType").val($("#pnrSysType_"+$("#pnrno_rt").val()).val());
+		openWindow("https://y8b2b.travelsky.com:443/y8b2b/"+"commonjsp/wait.jsp","pnrdetail","height=800,width=1000,menubar=yes,scrollbars=yes,resizable=yes");
+		$("#screenTextForm").attr("target","pnrdetail").submit();
+		return false;
+	});
+  	/*DETR票面*/
+	$(".tktdetail").click(function(){
+		$("#tktno_rt").val($(this).attr("tktno"));
+		$("#queryType_rt").val("DETR");
+		$("#publicKey").val($("#publicKey_"+$("#tktno_rt").val()).val());
+		openWindow("https://y8b2b.travelsky.com:443/y8b2b/"+"commonjsp/wait.jsp","tktdetail","height=800,width=1000,menubar=yes,scrollbars=yes,resizable=yes");
+		$("#screenTextForm").attr("target","tktdetail").submit();
+		return false;
+	});
+  	/*ems票面*/
+	$(".emsTktdetail").click(function(){
+		$("#ticketNo").val($(this).attr("emsTktno"));
+		$("#bookType").val($(this).attr("bookType"));
+		openWindow("https://y8b2b.travelsky.com:443/y8b2b/"+"commonjsp/wait.jsp","emsTktdetail","height=800,width=1000,menubar=yes,scrollbars=yes,resizable=yes");
+		$("#emsTicketScreenTextForm").attr("target","emsTktdetail").submit();
+		return false;
+	});
+	$(".ico-del").click(function(){
+		 $(".pop-payment").addClass("hidden");
+		 $(".pop-update").addClass("hidden");
+		 $(".psg").addClass("hidden");
+	     hideMasklayer();
+	});
+
+	function doquery(){
+		$("#queryRecNo").val($("#submitRecno").val());
+		var target = "detail"+recno;
+
+// 		$("#detailform").attr("target",target).submit();
+		$("#queryform").submit();
+		return false;
+	}
+
+	//弹出背景遮罩层
+	function popMasklayer(){
+	      $("body").append("<div id='greybackground'></div>");
+	      var documentheight = $(window.document).height();//获取此页面高度，包括下拉部分
+	      $("#greybackground").css({"height":documentheight});
+	}
+
+	//隐藏背景遮罩层
+	function hideMasklayer(){
+	     $("#greybackground").remove();
+	}
+
+	function pnrPaySubmit(){
+		var val=$('input:radio[name="paymethodradio"]:checked').val();
+		if(val === undefined){
+              alert(msg_zl_920);
+              return false;
+          }
+	    $("#payMethod0").val(val);
+	    if(val === '1'){
+	    	if(undefined === $("#pass0").val()||$("#pass0").val().trim() === ''){
+				alert(msg_zl_926);
+				return false;
+			}
+	    	$("#pnrpayform").attr("action","VirtualPay.do");
+		}else if(val === '3'){
+	    	if(undefined === $("#cdpvpaypswd").val()||$("#cdpvpaypswd").val().trim() === ''){
+				alert(msg_cdpvpay_error);
+				return false;
+			}
+	    	$("#pnrpayform").attr("action","CdpVpayPay.do");
+		}else{
+			$("#pnrpayform").attr("action","PayPre.do");
+		}
+		$("#pnrpayPayOrders").val($("#submitRecno").val()+"|"+$("#submitPnr").val()+"-"+$("#submitOrderPnrId").val()+"^");
+		$("#pnrpayform").submit();
+		$("#SubmitZF").attr("disabled", true);
+	}
+
+	function orderPaySubmit(){
+		var val=$('input:radio[name="paymethodradio1"]:checked').val();
+		 if(val===undefined){
+             alert(msg_zl_920);
+             return false;
+         }
+	    $("#payMethod1").val(val);
+	    if(val === '1'){
+	    	if(undefined === $("#pass1").val()||$("#pass1").val().trim() === ''){
+				alert(msg_zl_926);
+				return false;
+			}
+	    	$("#orderpayPayform").attr("action","VirtualPay.do");
+		}else if(val ==='2'){
+	    	$("#orderpayPayform").attr("action","WeblinkPayPre.do");
+	    }else if(val==='3'){ // CDP虚拟支付
+        	if(undefined === $("#cdpvpaypswd1").val()||'' ===$("#cdpvpaypswd1").val().trim()){
+        		alert(msg_cdpvpay_error);
+        		return false;
+        	}
+        	$("#orderpayPayform").attr("action","CdpVpayPay.do");
+        }else{
+			$("#orderpayPayform").attr("action","PayPre.do");
+		}
+		$("#orderpayPayOrders").val($("#submitRecno").val()+"|"+$("#submitPnr").val()+"-"+$("#submitOrderPnrId").val()+"^");
+		$("#orderpayPayform").submit();
+		$("#SubmitZF1").attr("disabled", true);
+	}
+
+	function caOrderPaySubmit(){
+		var val=$('input:radio[name="paymethodradio1"]:checked').val();
+        if(val === undefined){
+            alert(msg_zl_920);
+            return false;
+        }
+        if(val==='1'){
+        	if(undefined === $("#pass1").val()||'' ===$("#pass1").val().trim()){
+        		alert(msg_zl_926);
+        		return false;
+        	}
+        	$("#payMethod1").val(val);
+        	$("#orderpayPayOrders").val($("#submitRecno").val()+"|"+$("#submitPnr").val()+"-"+$("#submitOrderPnrId").val()+"^");
+			$("#orderpayPayform").attr("action","VirtualPay.do").submit();
+			$("#orderpay-btn").attr("disabled", true);
+        }else if(val === '2'){
+        	$("#payMethod1").val(val);
+        	$("#orderpayPayOrders").val($("#submitRecno").val()+"|"+$("#submitPnr").val()+"-"+$("#submitOrderPnrId").val()+"^");
+			$("#orderpayPayform").attr("action","WeblinkPayPre.do").submit();
+			$("#orderpay-btn").attr("disabled", true);
+        }else if(val==='3'){ // CDP虚拟支付
+        	if(undefined === $("#cdpvpaypswd1").val()||'' ===$("#cdpvpaypswd1").val().trim()){
+        		alert(msg_cdpvpay_error);
+        		return false;
+        	}
+        	$("#payMethod1").val(val);
+        	$("#orderpayPayOrders").val($("#submitRecno").val()+"|"+$("#submitPnr").val()+"-"+$("#submitOrderPnrId").val()+"^");
+			$("#orderpayPayform").attr("action","CdpVpayPay.do").submit();
+			$("#orderpay-btn").attr("disabled", true);
+        }else{
+        	$("#newPayMethod").val(val);
+        	$("#payselect").val("orderpay");
+        	$("#newPayOrders").val($("#submitRecno").val()+"|"+$("#submitPnr").val()+"-"+$("#submitOrderPnrId").val()+"^");
+        	$("#newEtdztype").val($("input:radio[class='orderetdztype']:checked").val());
+			var target = "detail";
+			openWindow("https://y8b2b.travelsky.com:443/y8b2b/"+"commonjsp/wait.jsp",target,"height=800,width=1000,menubar=yes,scrollbars=yes,resizable=yes");
+			$("#payselectform").attr("target",target).submit();
+			$("html,body").animate({scrollTop:0});
+			 $(".pop-payment").removeClass("hidden");
+			 popMasklayer();
+        }
+	}
+
+	function caPnrPaySubmit(){
+		var val=$('input:radio[name="paymethodradio"]:checked').val();
+	    if(val === undefined){
+	        alert(msg_zl_920);
+	        return false;
+	    }
+	    if(val === '1'){
+	    	if(undefined === $("#pass0").val()||''===$("#pass0").val().trim()){
+	    		alert(msg_zl_926);
+	    		return false;
+	    	}
+	    	$("#payMethod0").val(val);
+	    	$("#pnrpayPayOrders").val($("#submitRecno").val()+"|"+$("#submitPnr").val()+"-"+$("#submitOrderPnrId").val()+"^");
+			$("#pnrpayform").attr("action","VirtualPay.do").submit();
+			$("#pnrpay-btn").attr("disabled", true);
+	    }else if(val === '2'){
+	    	$("#payMethod0").val(val);
+	    	$("#pnrpayPayOrders").val($("#submitRecno").val()+"|"+$("#submitPnr").val()+"-"+$("#submitOrderPnrId").val()+"^");
+			$("#pnrpayform").attr("action","WeblinkPayPre.do").submit();
+			$("#pnrpay-btn").attr("disabled", true);
+	    }else if(val === '3'){
+	    	if(undefined === $("#cdpvpaypswd").val()||$("#cdpvpaypswd").val().trim() === ''){
+				alert(msg_cdpvpay_error);
+				return false;
+			}
+	    	$("#payMethod0").val(val);
+	    	$("#pnrpayPayOrders").val($("#submitRecno").val()+"|"+$("#submitPnr").val()+"-"+$("#submitOrderPnrId").val()+"^");
+			$("#pnrpayform").attr("action","CdpVpayPay.do").submit();
+			$("#pnrpay-btn").attr("disabled", true);
+		}
+	    else{
+	    	$("#newPayMethod").val(val);
+	    	$("#payselect").val("pnrpay");
+	    	$("#newEtdztype").val($("input:radio[class='pnretdztype']:checked").val());
+	    	$("#newPayOrders").val($("#submitRecno").val()+"|"+$("#submitPnr").val()+"-"+$("#submitOrderPnrId").val()+"^");
+			var target = "detail";
+			openWindow("https://y8b2b.travelsky.com:443/y8b2b/"+"commonjsp/wait.jsp",target,"height=800,width=1000,menubar=yes,scrollbars=yes,resizable=yes");
+			$("#payselectform").attr("target",target).submit();
+			$("html,body").animate({scrollTop:0});
+			/**弹出确认框*/
+			 $(".pop-payment").removeClass("hidden");
+			 popMasklayer();
+	    }
+    }
+
+	function orderPay(paytype){
+		var val=$('input:radio[name="paymethodradio1"]:checked').val();
+        if(val===undefined){
+            alert(msg_zl_920);
+            return false;
+        }
+		//ajax检测weblink支付密码是否正确
+        if(val === '2'){
+        	var weblinkpass = $('#weblink1').val();
+        	if(weblinkpass === ''){
+        		alert(msg_weblink);
+        		return false;
+        	}
+
+        	var _callback = function(data, status, xhr){
+        		var status = data.status;
+        		if(status !== undefined){
+        			if(status === '201' || status ==='202'){
+        				$('#weblinktips1').css("color","#FF0000").html(msg_weblink_error);
+        				return false;
+        			}else if(status === '203'){
+        				$('#weblinktips1').css("color","#FF0000").html(msg_weblink_locked+data.msg);
+        				return false;
+        			}else if(status === '204'){
+        				$('#weblinktips1').css("color","#FF0000").html(msg_weblink_access);
+        				return false;
+        			}else if(status === '205'){
+        				$('#weblinktips1').css("color","#FF0000").html("weblink "+msg_weblink_close);
+        				return false;
+        			}else if(status === '206'){
+        				$('#weblinktips1').css("color","#FF0000").html("weblink "+msg_weblink_freezen);
+        				return false;
+        			}else if(status === '207'){
+        				$('#weblinktips1').css("color","#FF0000").html("weblink "+msg_weblink_shutdown);
+        				return false;
+        			}else{
+        				$('#weblinktips1').html('');
+        			}
+        			if(paytype == 0){
+                		orderPaySubmit();
+                	}else{
+                		caOrderPaySubmit();
+                	}
+        		}else{
+        			alert(msg_weblink_error);
+    				return false;
+        		}
+        	}
+        	var setting ={
+        			url:'FrontUserWeblinkUpdate.do',
+        			type:'post',
+        			data:{weblinkPassword:weblinkpass},
+        			dataType:'json',
+        			success:_callback
+        		};
+        		$.ajax(setting);
+        }else{
+        	if(paytype == 0){
+        		orderPaySubmit();
+        	}else{
+        		caOrderPaySubmit();
+        	}
+        }
+	}
+
+
+	function pnrPay(paytype){
+		var val=$('input:radio[name="paymethodradio"]:checked').val();
+        if(val === undefined){
+            alert(msg_zl_920);
+            return false;
+        }
+        //ajax检测weblink支付密码是否正确
+        if(val === '2'){
+        	var weblinkpass = $('#weblink0').val();
+        	if(weblinkpass === ''){
+        		alert(msg_weblink);
+        		return false;
+        	}
+        	var _callback = function(data, status, xhr){
+        		var status = data.status;
+        		if(status !== undefined){
+        			if(status === '201' || status ==='202'){
+        				$('#weblinktips0').html(msg_weblink_error);
+        				return false;
+        			}else if(status === '203'){
+        				$('#weblinktips0').html(msg_weblink_locked+data.msg);
+        				return false;
+        			}else if(status === '204'){
+        				$('#weblinktips0').html(msg_weblink_access);
+        				return false;
+        			}else if(status === '205'){
+        				$('#weblinktips0').html("weblink "+msg_weblink_close);
+        				return false;
+        			}else if(status === '206'){
+        				$('#weblinktips0').html("weblink "+msg_weblink_freezen);
+        				return false;
+        			}else if(status === '207'){
+        				$('#weblinktips0').html("weblink "+msg_weblink_shutdown);
+        				return false;
+        			}
+        			else{
+        				$('#weblinktips0').html('');
+        			}
+        			if(paytype === 0){
+        				pnrPaySubmit();
+        			}else{
+        				caPnrPaySubmit();
+        			}
+
+        		}else{
+        			alert(msg_weblink_error);
+    				return false;
+        		}
+        	}
+        	var setting ={
+        			url:'FrontUserWeblinkUpdate.do',
+        			type:'post',
+        			data:{weblinkPassword:weblinkpass},
+        			dataType:'json',
+        			success:_callback
+        		};
+        		$.ajax(setting);
+        }else{
+        	if(paytype === 0){
+				pnrPaySubmit();
+			}else{
+				caPnrPaySubmit();
+			}
+        }
+	}
+
+ function isDatePart(dateStr){
+		   var parts;
+		   if(dateStr.indexOf("-") > -1){
+		     parts = dateStr.split('-');
+		   }else{
+		     return false;
+		   }
+		   if(parts.length < 3){
+		     return false;
+		   }
+		   for(i = 0 ;i < 3; i ++){
+		     if(isNaN(parts[i])){
+		       return false;
+		     }
+		   }
+		   intYear = parts[0];//年
+		   intMonth = parts[1];//月
+		   intDay = parts[2];//日
+		   if(intMonth>12||intMonth<1){
+			   return false;
+		   }
+		   if ( intDay<1||intDay>31){
+			   return false;
+		   }
+		   if((intMonth==4||intMonth==6||intMonth==9||intMonth==11)&&(intDay>30)){
+			   return false;
+		   }
+		   if(intMonth==2){
+		      if(intDay>29){
+		    	  return false;
+		      }
+		      if((((intYear%100==0)&&(intYear%400!=0))||(intYear%4!=0))&&(intDay>28)){
+		    	  return false;
+		      }
+		    }
+		   return true;
+		}
+</script>
+</html>
